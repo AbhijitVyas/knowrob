@@ -52,6 +52,10 @@
 
 :- rdf_db:rdf_register_ns(soma, 'http://www.ease-crc.org/ont/SOMA.owl#', [keep(true)]).
 
+%% FIXME should be somewhere else. does term expansion work with member?
+:- rdf_meta(my_member(t,+)).
+my_member(A,B) :- member(A,B).
+
 		 /*******************************
 		 *	    LIFE TIME		*
 		 *******************************/
@@ -174,6 +178,12 @@ object_color_rgb(Obj,[R,G,B]) +>
 % @MaterialTerm List of material properties
 %
 object_shape(Obj,ShapeTerm,[Frame,Pos,Rot],MaterialTerm) ?>
+	{ var(Obj), 
+	  object_shape_new(Obj,ShapeTerm,[Frame,Pos,Rot],MaterialTerm)
+	}.
+
+object_shape(Obj,ShapeTerm,[Frame,Pos,Rot],MaterialTerm) ?>
+	{ atom(Obj) }, 
 	triple(Obj,soma:hasShape,Shape),
 	triple(Shape,dul:hasRegion,ShapeRegion),
 	{ rdf_split_url(_,Frame,Obj),
@@ -182,11 +192,90 @@ object_shape(Obj,ShapeTerm,[Frame,Pos,Rot],MaterialTerm) ?>
 	},
 	object_shape_material(Obj,MaterialTerm).
 
+
+object_shape_new(Obj,ShapeTerm,[Frame,Pos,Rot],MaterialTerm) :-
+	once((var(Obj);Obj0=Obj)),
+	findall([Obj0,[RGB0,Alpha0],ShapeAttributes0],
+		ask(aggregate([
+			triple(Obj0,soma:hasShape,Shape),
+			%%
+			ignore(once(triple(Obj0,soma:hasColor,Color))),
+			ignore(once(triple(Color,dul:hasRegion,CR))),
+			ignore(triple(CR,soma:hasRGBValue,RGB0)),
+			ignore(triple(CR,soma:hasTransparencyValue,Alpha0)),
+			%%
+			once(triple(Shape,dul:hasRegion,ShapeRegion)),
+			%% get the shape origin
+			%ignore(triple(ShapeRegion,'http://knowrob.org/kb/urdf.owl#hasOrigin',Origin)),
+			%ignore(triple(Origin, soma:hasPositionVector, term(Pos))),
+			%ignore(triple(Origin, soma:hasOrientationVector, term(Rot))),
+			% get all attributes of ShapeRegion
+			findall(triple(ShapeRegion,_,_), ShapeAttributes0)
+		])),
+		ObjectShapes
+	),
+	
+	%%
+	member([Obj,[RGB,Alpha],ShapeAttributes1],ObjectShapes),
+	findall([P1,O1], (
+		member(Doc1, ShapeAttributes1),
+		member(p-string(P1), Doc1),
+		member(o-Ox, Doc1),
+		Ox=..[_,O1]
+	), ShapeAttributes),
+	
+	rdf_split_url(_,Frame,Obj),
+	shape_data2(ShapeAttributes,ShapeTerm),
+	
+	%% TODO handle shape origin
+	%shape_origin2(ShapeRegion,[Pos,Rot]),
+	[Pos,Rot]=[[0,0,0],[0,0,0,1]],
+	%% handle material color
+	object_material_(RGB,Alpha,MaterialTerm).
+
+%%
+object_material_(null,_A,material([])) :- !. % FIXME
+
+object_material_(RGB,A,material([rgba([R,G,B,A])])) :-
+	ground([RGB,A]),!,
+	RGB=[R,G,B].
+object_material_(RGB,_A,material([rgb(RGB)])) :-
+	ground(RGB),!.
+object_material_(_RGB,_A,material([])).
+
 %%
 object_shape_material(Obj,material([rgb(RGB)])) ?>
 	object_color_rgb(Obj,RGB),
 	{ ! }.
 object_shape_material(_,material([])) ?> { true }.
+
+%%
+shape_data2(ShapeAttributes,mesh(File,Scale)) :-
+	my_member([soma:hasFilePath,File],ShapeAttributes),
+	shape_scale2(ShapeAttributes,Scale),
+	!.
+
+shape_data2(ShapeAttributes,box(X,Y,Z)) :-
+	my_member([soma:hasDepth,  X],ShapeAttributes),
+	my_member([soma:hasWidth,  Y],ShapeAttributes),
+	my_member([soma:hasHeight, Z],ShapeAttributes),
+	!.
+
+shape_data2(ShapeAttributes,cylinder(Radius,Length)) :-
+	my_member([soma:hasLength, Length],ShapeAttributes),
+	my_member([soma:hasRadius, Radius],ShapeAttributes),
+	!.
+
+shape_data2(ShapeAttributes,sphere(Radius)) :-
+	my_member([soma:hasRadius, Radius],ShapeAttributes),
+	!.
+
+shape_scale2(ShapeAttributes,[X,Y,Z]) :-
+	% TODO: knowrob namespace should not be used here
+	my_member(['http://knowrob.org/kb/knowrob.owl#hasXScale', X],ShapeAttributes),
+	my_member(['http://knowrob.org/kb/knowrob.owl#hasYScale', Y],ShapeAttributes),
+	my_member(['http://knowrob.org/kb/knowrob.owl#hasZScale', Z],ShapeAttributes).
+shape_scale2(_,[1,1,1]).
 
 %%
 shape_data(ShapeRegion,mesh(File,Scale)) :-
@@ -195,9 +284,9 @@ shape_data(ShapeRegion,mesh(File,Scale)) :-
 	!.
 
 shape_data(ShapeRegion,box(X,Y,Z)) :-
-	triple(ShapeRegion, soma:hasWidth,  X),
-	triple(ShapeRegion, soma:hasHeight, Y),
-	triple(ShapeRegion, soma:hasDepth,  Z),
+	triple(ShapeRegion, soma:hasDepth,  X),
+	triple(ShapeRegion, soma:hasWidth,  Y),
+	triple(ShapeRegion, soma:hasHeight, Z),
 	!.
 
 shape_data(ShapeRegion,cylinder(Radius,Length)) :-
