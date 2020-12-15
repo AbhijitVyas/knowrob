@@ -1,0 +1,20 @@
+<launch>
+    <arg name="knowrob_settings" default="$(find knowrob)/settings/default.pl"/>
+    <arg name="owl_file_agent" default="package://knowrob/owl/robots/avatar_yasmin.owl"/>
+    <arg name="owl_file_map" default="package://knowrob/owl/maps/kitchen.owl"/>
+    <arg name="urdf_file_agent" default="package://knowrob/urdf/avatar_yasmin_0.urdf"/>
+    <arg name="urdf_file_map" default="package://knowrob/urdf/iai_kitchen.urdf"/>
+    <arg name="object_iri_agent" default="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_1"/>
+    <arg name="object_iri_map" default="http://knowrob.org/kb/IAI-kitchen.owl#iai_kitchen_room_link"/>
+
+    <!-- Configure settings file. -->
+    <env name="KNOWROB_SETTINGS" value="$(arg knowrob_settings)"/>
+
+    <include file="$(find rosprolog)/launch/rosprolog.launch">
+        <arg name="initial_package" default="knowrob"/>
+        <arg name="initial_goal"
+             default="tripledb_load('$(arg owl_file_map)'), urdf_load('$(arg object_iri_map)', '$(arg urdf_file_map)', [load_rdf]), urdf_set_pose_to_origin('$(arg object_iri_map)',map), tripledb_load('$(arg owl_file_agent)'), urdf_load('$(arg object_iri_agent)', '$(arg urdf_file_agent)', [load_rdf]), urdf_set_pose_to_origin('$(arg object_iri_agent)',map), sleep(1.0), marker_plugin:republish"/>
+    </include>
+
+
+</launch>

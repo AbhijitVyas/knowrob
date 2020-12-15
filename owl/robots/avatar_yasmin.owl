@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://knowrob.org/kb/Kitchen-clash.owl#"
+         xml:base="http://knowrob.org/kb/Kitchen-clash.owl"
+         xmlns:srdl2="http://knowrob.org/kb/srdl2.owl#"
+         xmlns:srdl2-cap="http://knowrob.org/kb/srdl2-cap.owl#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:urdf="http://knowrob.org/kb/urdf.owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:qudt-unit="http://qudt.org/vocab/unit#"
+         xmlns:iai-map="http://knowrob.org/kb/Kitchen-clash.owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:SOMA="http://www.ease-crc.org/ont/SOMA.owl#"
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns:srdl2-comp="http://knowrob.org/kb/srdl2-comp.owl#"
+         xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#"
+         xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#">
+
+    <!-- =========================================== -->
+    <!-- |   Ontology Imports                      | -->
+    <!-- =========================================== -->
+
+    <owl:Ontology rdf:about="http://knowrob.org/kb/avatar_yasmin.owl">
+        <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA.owl"/>
+    </owl:Ontology>
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject -->
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+
+    <!-- http://knowrob.org/kb/knowrob.owl#PR2 -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"/>
+    </owl:Class>
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_1">
+        <rdf:type rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin"/>
+        <urdf:hasURDFName>root</urdf:hasURDFName>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_pelvis"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_spine"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_leg_l"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_leg_r"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_arm_r"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_arm_l"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_hand_l"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_hand_r"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_head"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_pelvis">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pelvis</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_spine">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pelvis</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spine_03</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_leg_l">
+        <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Leg"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pelvis</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ball_l</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_leg_r">
+        <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Leg"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pelvis</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ball_r</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_arm_r">
+        <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Arm"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spine_03</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hand_r</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_arm_l">
+        <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Arm"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spine_03</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hand_l</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_hand_l">
+        <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Hand"/>
+        <urdf:hasURDFName>hand_l</urdf:hasURDFName>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_index_01_l"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_middle_01_l"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_pinky_01_l"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_ring_01_l"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_thumb_01_l"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_index_01_l">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">index_01_l</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">index_03_l</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_middle_01_l">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle_01_l</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle_03_l</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_pinky_01_l">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pinky_01_l</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pinky_03_l</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_ring_01_l">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ring_01_l</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ring_03_l</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_thumb_01_l">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thumb_01_l</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thumb_03_l</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_hand_r">
+        <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Hand"/>
+        <urdf:hasURDFName>hand_r</urdf:hasURDFName>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_index_01_r"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_middle_01_r"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_pinky_01_r"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_ring_01_r"/>
+        <dul:hasComponent rdf:resource="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_thumb_01_r"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_index_01_r">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">index_01_r</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">index_03_r</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_middle_01_r">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle_01_r</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle_03_r</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_pinky_01_r">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pinky_01_r</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pinky_03_r</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_ring_01_r">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ring_01_r</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ring_03_r</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_thumb_01_r">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thumb_01_r</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thumb_03_r</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/avatar_yasmin.owl#avatar_yasmin_head">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spine_03</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye_l</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye_r</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+</rdf:RDF>
+ 

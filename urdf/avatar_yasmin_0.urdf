@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="avatar_yasmin">
+<link name="root">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="pelvis">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="spine_01">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="spine_02">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="spine_03">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="neck_01">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="head">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="head_end"/>
+
+<link name="jaw">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/jaw.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="jaw_end"/>
+
+<link name="eye_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="eye_end_l"/>
+
+<link name="eye_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="eye_end_r"/>
+
+<link name="mouth_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="mouth_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="eyelid_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="eyelid_end_l"/>
+
+<link name="eyelid_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="eyelid_end_r"/>
+
+<link name="eyebrow_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="eyebrow_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+<link name="clavicle_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/clavicle_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="upperarm_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/upperarm_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="lowerarm_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/lowerarm_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="hand_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/hand_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thumb_01_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/thumb_01_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thumb_02_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/thumb_02_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thumb_03_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/thumb_03_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thumb_end_l"/>
+
+<link name="index_01_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/index_01_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="index_02_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/index_02_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="index_03_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/index_03_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="index_end_l"/>
+
+<link name="middle_01_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/middle_01_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="middle_02_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/middle_02_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="middle_03_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/middle_03_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="middle_end_l"/>
+
+<link name="ring_01_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/ring_01_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="ring_02_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/ring_02_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="ring_03_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/ring_03_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="ring_end_l"/>
+
+<link name="pinky_01_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/pinky_01_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="pinky_02_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/pinky_02_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="pinky_03_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/pinky_03_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="pinky_end_l"/>
+
+<link name="lowerarm_twist_01_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/lowerarm_twist_01_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="upperarm_twist_01_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/upperarm_twist_01_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="clavicle_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/clavicle_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="upperarm_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/upperarm_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="lowerarm_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/lowerarm_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="hand_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/hand_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thumb_01_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/thumb_01_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thumb_02_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/thumb_02_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thumb_03_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/thumb_03_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thumb_end_r"/>
+
+<link name="index_01_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/index_01_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="index_02_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/index_02_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="index_03_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/index_03_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="index_end_r"/>
+
+<link name="middle_01_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/middle_01_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="middle_02_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/middle_02_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="middle_03_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/middle_03_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="middle_end_r"/>
+
+<link name="ring_01_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/ring_01_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="ring_02_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/ring_02_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="ring_03_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/ring_03_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="ring_end_r"/>
+
+<link name="pinky_01_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/pinky_01_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="pinky_02_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/pinky_02_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="pinky_03_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/pinky_03_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="pinky_end_r"/>
+
+<link name="lowerarm_twist_01_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/lowerarm_twist_01_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="upperarm_twist_01_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/upperarm_twist_01_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thigh_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/thigh_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="calf_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/calf_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="foot_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/foot_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="ball_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/ball_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="foot_end_l"/>
+
+<link name="calf_twist_01_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/calf_twist_01_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thigh_twist_01_l">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/thigh_twist_01_l.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thigh_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/thigh_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="calf_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/calf_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="foot_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/foot_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="ball_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/ball_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="foot_end_r"/>
+
+<link name="calf_twist_01_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/calf_twist_01_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="thigh_twist_01_r">
+  <visual>
+    <geometry>
+      <box size="0.1 0.05 0.05"/>
+<!--      <! &#45;&#45; mesh filename="package://human_description/meshes/thigh_twist_01_r.dae" scale="0.01 0.01 0.01"/ &ndash;&gt;-->
+    </geometry>
+  </visual>
+</link>
+
+<link name="ik_foot_root"/>
+
+<link name="ik_foot_r"/>
+
+<link name="ik_foot_l"/>
+
+<link name="ik_hand_root"/>
+
+<link name="ik_hand_gun"/>
+
+<link name="ik_hand_r"/>
+
+<link name="ik_hand_l"/>
+
+
+<joint name="root_to_pelvis" type="fixed">
+  <parent link="root"/>
+  <child link="pelvis"/>
+  <origin rpy="0.0 -1.5705346845004127 0.0" xyz="0.0 5.97316384747e-17 0.975491702557"/>
+</joint>
+
+<joint name="pelvis_to_spine_01" type="fixed">
+  <parent link="pelvis"/>
+  <child link="spine_01"/>
+  <origin rpy="6.922414001149489e-43 0.0 -0.0" xyz="0.132874816656 8.13623618622e-18 9.5367429509e-09"/>
+</joint>
+
+<joint name="spine_01_to_spine_02" type="fixed">
+  <parent link="spine_01"/>
+  <child link="spine_02"/>
+  <origin rpy="6.922414001149489e-43 2.3959910657916105e-85 -6.922414001149489e-43" xyz="0.132874757051 8.13623205031e-18 0.0"/>
+</joint>
+
+<joint name="spine_02_to_spine_03" type="fixed">
+  <parent link="spine_02"/>
+  <child link="spine_03"/>
+  <origin rpy="6.894388033539976e-43 4.772581394212874e-85 -1.3844828002298978e-42" xyz="0.132874757051 8.13623205031e-18 0.0"/>
+</joint>
+
+<joint name="spine_03_to_neck_01" type="fixed">
+  <parent link="spine_03"/>
+  <child link="neck_01"/>
+  <origin rpy="-2.026391043281125e-42 -4.45854595736424e-43 -0.21660513851986862" xyz="0.135770723224 8.31355806695e-18 0.0"/>
+</joint>
+
+<joint name="neck_01_to_head" type="fixed">
+  <parent link="neck_01"/>
+  <child link="head"/>
+  <origin rpy="-1.221720288269432e-10 -1.123648048329635e-09 0.21660515367870237" xyz="0.0619430467486 -1.84774400225e-08 4.76837147545e-09"/>
+</joint>
+
+<joint name="head_to_head_end" type="fixed">
+  <parent link="head"/>
+  <child link="head_end"/>
+  <origin rpy="-7.415108085222458e-10 9.442729323257783e-17 -3.4860174889359154e-09" xyz="0.171695679426 7.26894739955e-08 1.90734859018e-08"/>
+</joint>
+
+<joint name="head_to_jaw" type="fixed">
+  <parent link="head"/>
+  <child link="jaw"/>
+  <origin rpy="6.339535470789445e-08 -2.8572481678659527e-08 -2.404016780278382" xyz="0.0481452867389 -0.033392906189 4.76837147545e-09"/>
+</joint>
+
+<joint name="jaw_to_jaw_end" type="fixed">
+  <parent link="jaw"/>
+  <child link="jaw_end"/>
+  <origin rpy="5.329070518202437e-15 -5.960464477540004e-08 -1.7881393432620128e-07" xyz="0.0838654786348 -2.47955313171e-07 -9.5367429509e-09"/>
+</joint>
+
+<joint name="head_to_eye_l" type="fixed">
+  <parent link="head"/>
+  <child link="eye_l"/>
+  <origin rpy="0.0 4.457029529466869e-06 -1.5707964611599028" xyz="0.0807925388217 -0.0857819765806 -0.0333407595754"/>
+</joint>
+
+<joint name="eye_l_to_eye_end_l" type="fixed">
+  <parent link="eye_l"/>
+  <child link="eye_end_l"/>
+  <origin rpy="-1.1921954579237375e-07 -4.6193597054392595e-06 4.4405463111572805e-06" xyz="0.0123777780682 -1.51395795456e-07 5.60283659468e-08"/>
+</joint>
+
+<joint name="head_to_eye_r" type="fixed">
+  <parent link="head"/>
+  <child link="eye_r"/>
+  <origin rpy="0.0 1.5910436381739776e-06 -1.5707964611555694" xyz="0.082191772759 -0.0840217545629 0.0301858521998"/>
+</joint>
+
+<joint name="eye_r_to_eye_end_r" type="fixed">
+  <parent link="eye_r"/>
+  <child link="eye_end_r"/>
+  <origin rpy="5.960593973961314e-08 -1.60932536097506e-06 -1.6093254569004134e-06" xyz="0.0120435329154 -1.52587887214e-07 -2.86102277869e-07"/>
+</joint>
+
+<joint name="head_to_mouth_l" type="fixed">
+  <parent link="head"/>
+  <child link="mouth_l"/>
+  <origin rpy="0.0 -0.7853980371808413 -1.570795993559666" xyz="0.0119613623247 -0.0984514579177 -0.0223760977387"/>
+</joint>
+
+<joint name="head_to_mouth_r" type="fixed">
+  <parent link="head"/>
+  <child link="mouth_r"/>
+  <origin rpy="0.0 0.7853979081525997 -1.5707961225932672" xyz="0.0123564107344 -0.0972266346216 0.0202548205853"/>
+</joint>
+
+<joint name="head_to_eyelid_l" type="fixed">
+  <parent link="head"/>
+  <child link="eyelid_l"/>
+  <origin rpy="-0.0033053963649648317 -0.011987300957342645 -1.3017327002980326" xyz="0.0807925388217 -0.0857819765806 -0.0333407595754"/>
+</joint>
+
+<joint name="eyelid_l_to_eyelid_end_l" type="fixed">
+  <parent link="eyelid_l"/>
+  <child link="eyelid_end_l"/>
+  <origin rpy="0.0 -2.9802322387600005e-08 0.0" xyz="0.0208705533296 4.17232506322e-08 6.79492941913e-08"/>
+</joint>
+
+<joint name="head_to_eyelid_r" type="fixed">
+  <parent link="head"/>
+  <child link="eyelid_r"/>
+  <origin rpy="0.023251213311040814 0.08286199557121192 -1.2968846784216228" xyz="0.082191772759 -0.0840217545629 0.0301858521998"/>
+</joint>
+
+<joint name="eyelid_r_to_eyelid_end_r" type="fixed">
+  <parent link="eyelid_r"/>
+  <child link="eyelid_end_r"/>
+  <origin rpy="-0.08501637168353124 0.013358554959138855 1.4533326575412593" xyz="0.0208651330322 -1.02519983614e-07 -4.05311588736e-08"/>
+</joint>
+
+<joint name="head_to_eyebrow_l" type="fixed">
+  <parent link="head"/>
+  <child link="eyebrow_l"/>
+  <origin rpy="1.5707964340987934 -0.7853981284194538 3.1415925623511516" xyz="0.0999600067735 -0.113751828671 -0.0225811675191"/>
+</joint>
+
+<joint name="head_to_eyebrow_r" type="fixed">
+  <parent link="head"/>
+  <child link="eyebrow_r"/>
+  <origin rpy="-1.5707959935597395 0.7853981284194538 -3.1415925623511516" xyz="0.100141435862 -0.112328141928 0.0221524145454"/>
+</joint>
+
+<joint name="spine_03_to_clavicle_l" type="fixed">
+  <parent link="spine_03"/>
+  <child link="clavicle_l"/>
+  <origin rpy="-3.1415926535897927 1.3962635890623165 -3.1415926535897927" xyz="0.0812890529633 0.00128845206928 -0.0555566288531"/>
+</joint>
+
+<joint name="clavicle_l_to_upperarm_l" type="fixed">
+  <parent link="clavicle_l"/>
+  <child link="upperarm_l"/>
+  <origin rpy="-1.3518547636150151e-17 0.6108652047809349 -4.2875342180120496e-17" xyz="0.101890362799 2.7964858928e-18 -1.02557237369e-07"/>
+</joint>
+
+<joint name="upperarm_l_to_lowerarm_l" type="fixed">
+  <parent link="upperarm_l"/>
+  <child link="lowerarm_l"/>
+  <origin rpy="1.6471375374848016e-09 6.141697461717584e-08 -0.4363322702136285" xyz="0.279667019844 6.76178460859e-18 8.58306847817e-08"/>
+</joint>
+
+<joint name="lowerarm_l_to_hand_l" type="fixed">
+  <parent link="lowerarm_l"/>
+  <child link="hand_l"/>
+  <origin rpy="-1.5707962925665615 1.5805067921086543e-07 -5.268355973695561e-08" xyz="0.273872613907 -8.10623177472e-08 -2.86102288527e-08"/>
+</joint>
+
+<joint name="hand_l_to_thumb_01_l" type="fixed">
+  <parent link="hand_l"/>
+  <child link="thumb_01_l"/>
+  <origin rpy="1.664410295172527 0.4143195682332145 0.4265240500080355" xyz="0.0411376096308 0.00893566850573 -0.0327502004802"/>
+</joint>
+
+<joint name="thumb_01_l_to_thumb_02_l" type="fixed">
+  <parent link="thumb_01_l"/>
+  <child link="thumb_02_l"/>
+  <origin rpy="-1.929444171151489e-08 -0.022862653944844883 0.24963302812632113" xyz="0.0174262616783 -5.60283659468e-08 -1.06096265995e-07"/>
+</joint>
+
+<joint name="thumb_02_l_to_thumb_03_l" type="fixed">
+  <parent link="thumb_02_l"/>
+  <child link="thumb_03_l"/>
+  <origin rpy="6.33551636986321e-08 4.026626393433547e-08 0.17453289204410932" xyz="0.0253691356629 -2.56299994561e-08 -9.17911506804e-08"/>
+</joint>
+
+<joint name="thumb_03_l_to_thumb_end_l" type="fixed">
+  <parent link="thumb_03_l"/>
+  <child link="thumb_end_l"/>
+  <origin rpy="-2.23517386419369e-07 1.6251577655839414e-07 5.960461950743592e-08" xyz="0.0191512610763 -3.78489524167e-08 -4.44650652298e-07"/>
+</joint>
+
+<joint name="hand_l_to_index_01_l" type="fixed">
+  <parent link="hand_l"/>
+  <child link="index_01_l"/>
+  <origin rpy="-2.949162714745957e-08 0.05235988014522762 0.17453297770116513" xyz="0.0833806991577 0.00133407115936 -0.0213758982718"/>
+</joint>
+
+<joint name="index_01_l_to_index_02_l" type="fixed">
+  <parent link="index_01_l"/>
+  <child link="index_02_l"/>
+  <origin rpy="-1.2987211306371575e-09 -1.4844457218997004e-08 0.17453283176424206" xyz="0.0342480838299 -5.96046447754e-08 4.29153423909e-08"/>
+</joint>
+
+<joint name="index_02_l_to_index_03_l" type="fixed">
+  <parent link="index_02_l"/>
+  <child link="index_03_l"/>
+  <origin rpy="-7.681973412936465e-08 -2.319530723039586e-08 0.17453293241596293" xyz="0.0261462125927 2.14576711954e-08 1.19209282445e-08"/>
+</joint>
+
+<joint name="index_03_l_to_index_end_l" type="fixed">
+  <parent link="index_03_l"/>
+  <child link="index_end_l"/>
+  <origin rpy="2.9802315282162112e-08 -5.960464388720043e-08 1.788139227798183e-07" xyz="0.0198044087738 4.40478316932e-07 -1.74045553081e-07"/>
+</joint>
+
+<joint name="hand_l_to_middle_01_l" type="fixed">
+  <parent link="hand_l"/>
+  <child link="middle_01_l"/>
+  <origin rpy="-5.0656881689291914e-08 1.938998400728252e-08 0.1745329173459434" xyz="0.083466976881 -3.11920048262e-05 -0.00236963271163"/>
+</joint>
+
+<joint name="middle_01_l_to_middle_02_l" type="fixed">
+  <parent link="middle_01_l"/>
+  <child link="middle_02_l"/>
+  <origin rpy="6.717016232118522e-08 8.387185435049842e-08 0.1745329824640121" xyz="0.0381930582225 9.93907462998e-08 -6.67572024327e-08"/>
+</joint>
+
+<joint name="middle_02_l_to_middle_03_l" type="fixed">
+  <parent link="middle_02_l"/>
+  <child link="middle_03_l"/>
+  <origin rpy="-1.2987217967712312e-08 -1.484445721899706e-07 0.174532922184144" xyz="0.0288754962385 9.40263262805e-08 -1.43051144263e-08"/>
+</joint>
+
+<joint name="middle_03_l_to_middle_end_l" type="fixed">
+  <parent link="middle_03_l"/>
+  <child link="middle_end_l"/>
+  <origin rpy="2.980232505213528e-08 2.9802319723064746e-08 1.7881393477029025e-07" xyz="0.0218331906945 6.14523855802e-07 -6.67572024327e-08"/>
+</joint>
+
+<joint name="hand_l_to_ring_01_l" type="fixed">
+  <parent link="hand_l"/>
+  <child link="ring_01_l"/>
+  <origin rpy="-1.3254443043783866e-07 -0.05235977908116132 0.17453296157000645" xyz="0.0840609148145 0.000955735449679 0.0161557104439"/>
+</joint>
+
+<joint name="ring_01_l_to_ring_02_l" type="fixed">
+  <parent link="ring_01_l"/>
+  <child link="ring_02_l"/>
+  <origin rpy="-6.493608428743144e-09 -7.422228165406653e-08 0.1745328968821349" xyz="0.0361194685102 -2.32458106098e-08 -1.90734876782e-08"/>
+</joint>
+
+<joint name="ring_02_l_to_ring_03_l" type="fixed">
+  <parent link="ring_02_l"/>
+  <child link="ring_03_l"/>
+  <origin rpy="2.5974427053577097e-09 2.9688914437914318e-08 0.17453286190427605" xyz="0.0272103212774 3.81469718036e-08 4.76837191954e-09"/>
+</joint>
+
+<joint name="ring_03_l_to_ring_end_l" type="fixed">
+  <parent link="ring_03_l"/>
+  <child link="ring_end_l"/>
+  <origin rpy="-1.1920927533998007e-07 5.329070518196467e-15 8.940695650488497e-08" xyz="0.0205194056034 -4.88758082895e-08 -2.38418600418e-08"/>
+</joint>
+
+<joint name="hand_l_to_pinky_01_l" type="fixed">
+  <parent link="hand_l"/>
+  <child link="pinky_01_l"/>
+  <origin rpy="8.110786270692035e-08 -0.10471976359411636 0.17453296684534916" xyz="0.0808294340968 0.00567672261968 0.0324499085546"/>
+</joint>
+
+<joint name="pinky_01_l_to_pinky_02_l" type="fixed">
+  <parent link="pinky_01_l"/>
+  <child link="pinky_02_l"/>
+  <origin rpy="-0.0 0.0 0.174532851672288" xyz="0.026422649622 -9.00030130424e-08 1.54972070732e-08"/>
+</joint>
+
+<joint name="pinky_02_l_to_pinky_03_l" type="fixed">
+  <parent link="pinky_02_l"/>
+  <child link="pinky_03_l"/>
+  <origin rpy="-6.197526714047302e-08 -2.449402902716955e-08 0.17453279139242683" xyz="0.0198948029429 5.93066218357e-08 -3.2186505905e-08"/>
+</joint>
+
+<joint name="pinky_03_l_to_pinky_end_l" type="fixed">
+  <parent link="pinky_03_l"/>
+  <child link="pinky_end_l"/>
+  <origin rpy="-8.940696494255411e-08 2.9802329048938156e-08 1.49011610606133e-07" xyz="0.0150656504557 2.06232087407e-07 4.76837147545e-09"/>
+</joint>
+
+<joint name="lowerarm_l_to_lowerarm_twist_01_l" type="fixed">
+  <parent link="lowerarm_l"/>
+  <child link="lowerarm_twist_01_l"/>
+  <origin rpy="-0.0 2.6077030534878505e-08 -0.0" xyz="0.136936411262 7.15255721317e-09 9.53674259563e-08"/>
+</joint>
+
+<joint name="upperarm_l_to_upperarm_twist_01_l" type="fixed">
+  <parent link="upperarm_l"/>
+  <child link="upperarm_twist_01_l"/>
+  <origin rpy="-0.0 1.5165206918017786e-33 -0.0" xyz="0.139833450317 3.38089519943e-18 9.53674259563e-08"/>
+</joint>
+
+<joint name="spine_03_to_clavicle_r" type="fixed">
+  <parent link="spine_03"/>
+  <child link="clavicle_r"/>
+  <origin rpy="3.1415926535897927 1.3962635890623165 -2.248013181435896e-16" xyz="0.0812959298491 0.00149318692274 0.0442395024002"/>
+</joint>
+
+<joint name="clavicle_r_to_upperarm_r" type="fixed">
+  <parent link="clavicle_r"/>
+  <child link="upperarm_r"/>
+  <origin rpy="4.8420221216675326e-17 0.6108652047809349 -1.3228374992966639e-18" xyz="-0.102991655469 -1.0950729801e-18 -9.53674259563e-08"/>
+</joint>
+
+<joint name="upperarm_r_to_lowerarm_r" type="fixed">
+  <parent link="upperarm_r"/>
+  <child link="lowerarm_r"/>
+  <origin rpy="1.6471375374848016e-09 6.141697461717584e-08 -0.4363322702136285" xyz="-0.281962037086 -4.7112190902e-17 -2.09808348473e-07"/>
+</joint>
+
+<joint name="lowerarm_r_to_hand_r" type="fixed">
+  <parent link="lowerarm_r"/>
+  <child link="hand_r"/>
+  <origin rpy="-1.5707962925665615 1.475139672635026e-07 -6.322027168431836e-08" xyz="-0.27065500617 -2.86102288527e-08 9.53674259563e-08"/>
+</joint>
+
+<joint name="hand_r_to_thumb_01_r" type="fixed">
+  <parent link="hand_r"/>
+  <child link="thumb_01_r"/>
+  <origin rpy="1.6644103326327788 0.4143196122572195 0.42652410573670324" xyz="-0.0269848387688 -0.0106963636354 0.0339656099677"/>
+</joint>
+
+<joint name="thumb_01_r_to_thumb_02_r" type="fixed">
+  <parent link="thumb_01_r"/>
+  <child link="thumb_02_r"/>
+  <origin rpy="1.3190109329035214e-08 -0.022862630445319925 0.24963302855253086" xyz="-0.025706557557 5.48362706354e-08 1.52587887214e-07"/>
+</joint>
+
+<joint name="thumb_02_r_to_thumb_03_r" type="fixed">
+  <parent link="thumb_02_r"/>
+  <child link="thumb_03_r"/>
+  <origin rpy="7.422229053582916e-08 -6.493607873630168e-09 0.1745329022759258" xyz="-0.0259929168969 -8.34465083699e-08 -2.43186946136e-07"/>
+</joint>
+
+<joint name="thumb_03_r_to_thumb_end_r" type="fixed">
+  <parent link="thumb_03_r"/>
+  <child link="thumb_end_r"/>
+  <origin rpy="-1.1920927872612768e-07 1.7881394154265063e-07 1.210719240418612e-07" xyz="-0.0197548363358 1.00731853081e-07 2.205371743e-07"/>
+</joint>
+
+<joint name="hand_r_to_index_01_r" type="fixed">
+  <parent link="hand_r"/>
+  <child link="index_01_r"/>
+  <origin rpy="-1.1120823544785382e-08 0.05235992339044771 0.17453296330368" xyz="-0.0837888866663 -0.00111940864008 0.0210517123342"/>
+</joint>
+
+<joint name="index_01_r_to_index_02_r" type="fixed">
+  <parent link="index_01_r"/>
+  <child link="index_02_r"/>
+  <origin rpy="-0.0 0.0 0.17453283176424203" xyz="-0.0350769869983 -2.86102288527e-08 5.12599918068e-08"/>
+</joint>
+
+<joint name="index_02_r_to_index_03_r" type="fixed">
+  <parent link="index_02_r"/>
+  <child link="index_03_r"/>
+  <origin rpy="-5.9377832428703144e-08 5.194888075269085e-09 0.17453296255599784" xyz="-0.0261175651103 6.67572024327e-08 -7.39097600899e-08"/>
+</joint>
+
+<joint name="index_03_r_to_index_end_r" type="fixed">
+  <parent link="index_03_r"/>
+  <child link="index_end_r"/>
+  <origin rpy="-8.940696893935712e-08 -5.960464211086477e-08 5.96046474399354e-08" xyz="-0.0194219015539 -9.89437083376e-08 -2.50339500241e-08"/>
+</joint>
+
+<joint name="hand_r_to_middle_01_r" type="fixed">
+  <parent link="hand_r"/>
+  <child link="middle_01_r"/>
+  <origin rpy="-5.9377832428703144e-08 5.194886298907619e-09 0.1745329022759258" xyz="-0.0839380249381 0.000250225071795 0.00343034020625"/>
+</joint>
+
+<joint name="middle_01_r_to_middle_02_r" type="fixed">
+  <parent link="middle_01_r"/>
+  <child link="middle_02_r"/>
+  <origin rpy="6.457271695129709e-08 5.41829408007588e-08 0.17453295232417854" xyz="-0.0380326844752 -5.72204577054e-08 4.88758082895e-08"/>
+</joint>
+
+<joint name="middle_02_r_to_middle_03_r" type="fixed">
+  <parent link="middle_02_r"/>
+  <child link="middle_03_r"/>
+  <origin rpy="1.9299147169147854e-08 -1.2135310711867385e-07 0.17453284199605612" xyz="-0.0286778602749 2.14576711954e-08 -2.74181353177e-08"/>
+</joint>
+
+<joint name="middle_03_r_to_middle_end_r" type="fixed">
+  <parent link="middle_03_r"/>
+  <child link="middle_end_r"/>
+  <origin rpy="-5.9604637669972777e-08 5.960465188082739e-08 2.3841857732564583e-07" xyz="-0.0216386131942 -1.40666955417e-07 7.62939436072e-08"/>
+</joint>
+
+<joint name="hand_r_to_ring_01_r" type="fixed">
+  <parent link="hand_r"/>
+  <child link="ring_01_r"/>
+  <origin rpy="-1.4426357813506806e-07 -0.05235982304429908 0.17453297715177385" xyz="-0.0845314115286 -0.00207542418502 -0.0124071901664"/>
+</joint>
+
+<joint name="ring_01_r_to_ring_02_r" type="fixed">
+  <parent link="ring_01_r"/>
+  <child link="ring_02_r"/>
+  <origin rpy="9.649568255544225e-09 -6.067654734210945e-08 0.17453294209218329" xyz="-0.0357861705124 -1.62124635494e-07 3.3378604769e-08"/>
+</joint>
+
+<joint name="ring_02_r_to_ring_03_r" type="fixed">
+  <parent link="ring_02_r"/>
+  <child link="ring_03_r"/>
+  <origin rpy="-0.0 0.0 0.17453282153225574" xyz="-0.026732262224 1.4781952018e-07 -2.02655812132e-08"/>
+</joint>
+
+<joint name="ring_03_r_to_ring_end_r" type="fixed">
+  <parent link="ring_03_r"/>
+  <child link="ring_end_r"/>
+  <origin rpy="-2.9802322387600005e-08 -0.0 0.0" xyz="-0.0202575456351 -7.15255721317e-09 -5.72204683635e-08"/>
+</joint>
+
+<joint name="hand_r_to_pinky_01_r" type="fixed">
+  <parent link="hand_r"/>
+  <child link="pinky_01_r"/>
+  <origin rpy="9.06460165656368e-08 -0.10471974927200571 0.17453295112443828" xyz="-0.0799680128694 -0.00681189540774 -0.0284571684897"/>
+</joint>
+
+<joint name="pinky_01_r_to_pinky_02_r" type="fixed">
+  <parent link="pinky_01_r"/>
+  <child link="pinky_02_r"/>
+  <origin rpy="-0.0 0.0 0.17453288181211812" xyz="-0.0267977323383 1.80006026085e-07 -4.05311588736e-08"/>
+</joint>
+
+<joint name="pinky_02_r_to_pinky_03_r" type="fixed">
+  <parent link="pinky_02_r"/>
+  <child link="pinky_03_r"/>
+  <origin rpy="-5.9377825323293045e-08 5.19488274619661e-09 0.17453276125239395" xyz="-0.020370433107 -1.68085094288e-07 2.86102288527e-08"/>
+</joint>
+
+<joint name="pinky_03_r_to_pinky_end_r" type="fixed">
+  <parent link="pinky_03_r"/>
+  <child link="pinky_end_r"/>
+  <origin rpy="2.980231705852954e-08 -5.96046474399353e-08 1.7881393343802286e-07" xyz="-0.0150891393423 -6.19888353981e-08 -1.19209286886e-09"/>
+</joint>
+
+<joint name="lowerarm_r_to_lowerarm_twist_01_r" type="fixed">
+  <parent link="lowerarm_r"/>
+  <child link="lowerarm_twist_01_r"/>
+  <origin rpy="0.0 -0.0 -1.1175870229242215e-08" xyz="-0.135327488184 -3.33786012163e-08 4.76837129781e-08"/>
+</joint>
+
+<joint name="upperarm_r_to_upperarm_twist_01_r" type="fixed">
+  <parent link="upperarm_r"/>
+  <child link="upperarm_twist_01_r"/>
+  <origin rpy="0.0 -0.0 0.0" xyz="-0.140981018543 -2.3556095451e-17 -1.04904174236e-07"/>
+</joint>
+
+<joint name="pelvis_to_thigh_l" type="fixed">
+  <parent link="pelvis"/>
+  <child link="thigh_l"/>
+  <origin rpy="1.5824377920084954e-10 1.3172630337860806e-05 0.0016236439278193438" xyz="-5.25951372765e-06 -4.60341768676e-18 -0.0751742497087"/>
+</joint>
+
+<joint name="thigh_l_to_calf_l" type="fixed">
+  <parent link="thigh_l"/>
+  <child link="calf_l"/>
+  <origin rpy="2.491496214043459e-05 -0.0003449390407946705 -0.07366605369529398" xyz="-0.442174971104 8.419156039e-09 0.0"/>
+</joint>
+
+<joint name="calf_l_to_foot_l" type="fixed">
+  <parent link="calf_l"/>
+  <child link="foot_l"/>
+  <origin rpy="-2.2008140785443326e-10 0.0003328693359829928 0.07204241871781975" xyz="-0.44480907917 -5.96046412227e-09 1.90734851913e-07"/>
+</joint>
+
+<joint name="foot_l_to_ball_l" type="fixed">
+  <parent link="foot_l"/>
+  <child link="ball_l"/>
+  <origin rpy="-5.0763546500907294e-05 0.003030459532343775 -1.5875526500992745" xyz="-0.0718969255686 -0.149225264788 0.000160508148838"/>
+</joint>
+
+<joint name="ball_l_to_foot_end_l" type="fixed">
+  <parent link="ball_l"/>
+  <child link="foot_end_l"/>
+  <origin rpy="0.0 -0.0 0.0" xyz="0.0350220575929 -1.21593473068e-07 -6.67572024327e-08"/>
+</joint>
+
+<joint name="calf_l_to_calf_twist_01_l" type="fixed">
+  <parent link="calf_l"/>
+  <child link="calf_twist_01_l"/>
+  <origin rpy="-0.0 2.875458106339474e-08 -0.0" xyz="-0.22240447998 -1.78813923668e-08 -7.62939436072e-08"/>
+</joint>
+
+<joint name="thigh_l_to_thigh_twist_01_l" type="fixed">
+  <parent link="thigh_l"/>
+  <child link="thigh_twist_01_l"/>
+  <origin rpy="-0.0 3.40367023454e-09 -0.0" xyz="-0.221087470651 4.17232515204e-09 1.52587887214e-07"/>
+</joint>
+
+<joint name="pelvis_to_thigh_r" type="fixed">
+  <parent link="pelvis"/>
+  <child link="thigh_r"/>
+  <origin rpy="3.644751811038541e-07 0.0001314278641031993 -3.13879216497364" xyz="4.80175003759e-06 4.60338956262e-18 0.0751742497087"/>
+</joint>
+
+<joint name="thigh_r_to_calf_r" type="fixed">
+  <parent link="thigh_r"/>
+  <child link="calf_r"/>
+  <origin rpy="-3.495097498998406e-06 9.023336991195766e-05 -0.07742924667445918" xyz="0.445139825344 -2.38418573772e-09 0.0"/>
+</joint>
+
+<joint name="calf_r_to_foot_r" type="fixed">
+  <parent link="calf_r"/>
+  <child link="foot_r"/>
+  <origin rpy="-8.288318274613583e-06 -0.00022187252947308752 0.0746287607139227" xyz="0.436350762844 -4.76837147545e-09 1.14440915411e-07"/>
+</joint>
+
+<joint name="foot_r_to_ball_r" type="fixed">
+  <parent link="foot_r"/>
+  <child link="ball_r"/>
+  <origin rpy="5.4015037745528935e-05 -0.0076886835163455835 -1.5778190414162776" xyz="0.0826011225581 0.155373677611 -0.000115814204037"/>
+</joint>
+
+<joint name="ball_r_to_foot_end_r" type="fixed">
+  <parent link="ball_r"/>
+  <child link="foot_end_r"/>
+  <origin rpy="-5.960464566357848e-08 -2.9802320611243165e-08 5.960464566357848e-08" xyz="-0.0358436591923 1.59740437766e-07 1.95503233158e-07"/>
+</joint>
+
+<joint name="calf_r_to_calf_twist_01_r" type="fixed">
+  <parent link="calf_r"/>
+  <child link="calf_twist_01_r"/>
+  <origin rpy="0.0 -0.0 0.0" xyz="0.218175381422 -2.38418573772e-09 7.62939436072e-08"/>
+</joint>
+
+<joint name="thigh_r_to_thigh_twist_01_r" type="fixed">
+  <parent link="thigh_r"/>
+  <child link="thigh_twist_01_r"/>
+  <origin rpy="-0.0 5.960464477540004e-08 -0.0" xyz="0.222569867969 1.81049095715e-08 -1.90734859018e-08"/>
+</joint>
+
+<joint name="root_to_ik_foot_root" type="fixed">
+  <parent link="root"/>
+  <child link="ik_foot_root"/>
+  <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+</joint>
+
+<joint name="ik_foot_root_to_ik_foot_r" type="fixed">
+  <parent link="ik_foot_root"/>
+  <child link="ik_foot_r"/>
+  <origin rpy="3.1415885872072544 1.5707963267948966 -2.82605756568174e-06" xyz="-0.0750189200044 0.0312873832881 0.0952222421765"/>
+</joint>
+
+<joint name="ik_foot_root_to_ik_foot_l" type="fixed">
+  <parent link="ik_foot_root"/>
+  <child link="ik_foot_l"/>
+  <origin rpy="7.74146767901687e-09 -1.5705346844728312 1.548309172631797e-09" xyz="0.0753161609173 0.0312994755805 0.0896566361189"/>
+</joint>
+
+<joint name="root_to_ik_hand_root" type="fixed">
+  <parent link="root"/>
+  <child link="ik_hand_root"/>
+  <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+</joint>
+
+<joint name="ik_hand_root_to_ik_hand_gun" type="fixed">
+  <parent link="ik_hand_root"/>
+  <child link="ik_hand_gun"/>
+  <origin rpy="1.1709448133782143 -0.6956134325355375 0.5829958934020861" xyz="-0.518494844437 -0.112890549004 1.06469941139"/>
+</joint>
+
+<joint name="ik_hand_gun_to_ik_hand_r" type="fixed">
+  <parent link="ik_hand_gun"/>
+  <child link="ik_hand_r"/>
+  <origin rpy="4.470348624613529e-08 2.9802318390797116e-08 1.7881393499233486e-07" xyz="0.0 0.0 0.0"/>
+</joint>
+
+<joint name="ik_hand_gun_to_ik_hand_l" type="fixed">
+  <parent link="ik_hand_gun"/>
+  <child link="ik_hand_l"/>
+  <origin rpy="-2.6664018571023993 -0.39306600503647476 -1.7653732954630281" xyz="0.670575678349 -0.740988910198 0.314421117306"/>
+</joint>
+
+</robot>
