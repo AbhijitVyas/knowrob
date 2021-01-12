@@ -1,0 +1,2308 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://knowrob.org/kb/Kitchen-clash.owl#"
+         xml:base="http://knowrob.org/kb/Kitchen-clash.owl"
+         xmlns:srdl2="http://knowrob.org/kb/srdl2.owl#"
+         xmlns:srdl2-cap="http://knowrob.org/kb/srdl2-cap.owl#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:urdf="http://knowrob.org/kb/urdf.owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:qudt-unit="http://qudt.org/vocab/unit#"
+         xmlns:iai-map="http://knowrob.org/kb/Kitchen-clash.owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:SOMA="http://www.ease-crc.org/ont/SOMA.owl#"
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns:srdl2-comp="http://knowrob.org/kb/srdl2-comp.owl#"
+         xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#"
+         xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#">
+    <owl:Ontology rdf:about="http://knowrob.org/kb/Kitchen-clash.owl">
+        <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA.owl"/>
+    </owl:Ontology>
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- http://knowrob.org/kb/Kitchen-clash.owl#IAIKitchen -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#IAIKitchen">
+        <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture"/>
+    </owl:Class>
+
+    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject -->
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- http://knowrob.org/kb/Kitchen-clash.owl#iai_kitchen_room_link -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#iai_kitchen_room_link">
+        <rdf:type rdf:resource="http://knowrob.org/kb/Kitchen-clash.owl#IAIKitchen"/>
+        <urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">room_link</urdf:hasBaseLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lettuce</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lemon</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">garlic</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fig</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eggplant</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chiliPepper</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cherryRed</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cauliflower</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">broccoli</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bellPepperYellow</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bellpepperRed</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bellPepperOrange</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apricot</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Plant_02</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Plant</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Plant_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Plant_02</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Plant_03</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Pen_02</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Pen_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_CarboardBox_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Broom</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Boxfile_06</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Boxfile_05</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Boxfile_03</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Boxfile_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_Wrench_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_Spanner_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_SmartPhone_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_SledgeHammer_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_ScrewDriver_03</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_ScrewDriver_02</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_ScrewDriver_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_Hammer_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_FlashLight_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_Drill_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_CrowBar_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_knife_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_rolling_pin</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_cleaver_knife_02</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_kitchen_turner</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_kitchen_fork</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_flyswatter_02</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_flyswatter_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_fire_poker</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_baseball_bat_02</urdf:hasEndLinkName>
+
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_axe</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_RubixCube</urdf:hasEndLinkName>
+
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_Window_01_Blue</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_01_Blue</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Door_02</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Large_Window_05</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Door_Small_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_Door_01_Blue_1</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bed</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drawer</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BigDrawer</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TallLamp</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirror.1</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bookshelf</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book.1</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book.2</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book.3</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book.4</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book.5</urdf:hasEndLinkName>
+
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Curtains_Red</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Rug_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_shelf_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refridgerator_Empty</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refridgerator_UpperDrawer</urdf:hasEndLinkName>
+
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refridgerator_Door</urdf:hasEndLinkName>
+
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink_WithoutDrawers</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink_Drawer1</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Knife_Table</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Spoon_Soup</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Fork_Dinner</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink_Drawer2</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink_DoorL</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink_DoorR</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink.2</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MicrowaveBack</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MicrowaveFrontModel</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_Empty</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_Drawer2</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_Drawer3</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_Drawer4</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_Drawer5</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_DoorL</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_DoorR</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_SinkDoor</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_OvenDoor</urdf:hasEndLinkName>
+
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appleGreen</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radish</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cucumber</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">banana</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potatoYellow</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pawpaw</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appleRed</urdf:hasEndLinkName>
+
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carrot</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Saucer</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_26cm</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_21cm</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_16cm</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Bowl_Small</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Bowl</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoxshelfModel</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Upper</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_TraySet_Mid</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trashcan1</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trashcan1Cap</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Tiles</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Table</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chair</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofa.1</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Curtains_Blue</urdf:hasEndLinkName>
+
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Cupboard_03</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Bonzai</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Big_Clock</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Rug_03</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Fireplace_02</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Speaker_02</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_WallArt_01</urdf:hasEndLinkName>
+
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_WallArt_02</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_WallArt_03</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Bar_Bench</urdf:hasEndLinkName>
+
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Grey</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Shelf_011</urdf:hasEndLinkName>
+
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Pinboard_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Papers_03</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Shelf_04</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Vinyl</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BathSink</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bathtub</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plunger</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirror</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toilet_Paper</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Towel_Rack</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BroomBottom</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BroomTop</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ground</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_BathMat_Blue</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Toilet_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_ToiletSeat_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TV</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TVTable</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Clipboard</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_FryPan_01</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Food_Meat_Steak_Raw</urdf:hasEndLinkName>
+        <urdf:hasEndLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</urdf:hasEndLinkName>
+    </owl:NamedIndividual>
+
+
+    	<!-- http://knowrob.org/kb/Kitchen-clash.owl#tomato-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#tomato">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#lettuce-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#lettuce">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lettuce</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#lemon-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#lemon">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lemon</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#garlic-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#garlic">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">garlic</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#fig-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#fig">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fig</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#eggplant-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#eggplant">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eggplant</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#chiliPepper-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#chiliPepper">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chiliPepper</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#cherryRed-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#cherryRed">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cherryRed</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#cauliflower-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#cauliflower">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cauliflower</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#broccoli-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#broccoli">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">broccoli</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#bellPepperYellow-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#bellPepperYellow">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bellPepperYellow</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#bellpepperRed-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#bellpepperRed">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bellpepperRed</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#bellPepperOrange-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#bellPepperOrange">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bellPepperOrange</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#apricot-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#apricot">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apricot</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Plant_02-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Plant_02">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Plant_02</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Plant-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Plant">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Plant</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Plant_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Plant_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Plant_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Plant_02-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Plant_02">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Plant_02</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Plant_03-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Plant_03">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Plant_03</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Pen_02-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Pen_02">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Pen_02</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Pen_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Pen_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Pen_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_CarboardBox_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_CarboardBox_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_CarboardBox_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Broom-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Broom">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Broom</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Boxfile_06-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Boxfile_06">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Boxfile_06</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Boxfile_05-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Boxfile_05">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Boxfile_05</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Boxfile_03-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Boxfile_03">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Boxfile_03</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Boxfile_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Boxfile_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Boxfile_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_Wrench_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_Wrench_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_Wrench_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_Spanner_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_Spanner_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_Spanner_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_SmartPhone_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_SmartPhone_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_SmartPhone_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_SledgeHammer_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_SledgeHammer_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_SledgeHammer_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_ScrewDriver_03-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_ScrewDriver_03">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_ScrewDriver_03</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_ScrewDriver_02-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_ScrewDriver_02">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_ScrewDriver_02</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_ScrewDriver_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_ScrewDriver_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_ScrewDriver_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_Hammer_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_Hammer_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_Hammer_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_FlashLight_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_FlashLight_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_FlashLight_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_Drill_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_Drill_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_Drill_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_CrowBar_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_CrowBar_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_CrowBar_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_knife_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_knife_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_knife_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_rolling_pin-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_rolling_pin">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_rolling_pin</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_cleaver_knife_02-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_cleaver_knife_02">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_cleaver_knife_02</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_kitchen_turner-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_kitchen_turner">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_kitchen_turner</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_kitchen_fork-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_kitchen_fork">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_kitchen_fork</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_flyswatter_02-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_flyswatter_02">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_flyswatter_02</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_flyswatter_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_flyswatter_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_flyswatter_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_fire_poker-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_fire_poker">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_fire_poker</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_baseball_bat_02-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_baseball_bat_02">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_baseball_bat_02</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_knife_01_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_knife_01_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_knife_01_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_axe-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_axe">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_axe</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_RubixCube-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_RubixCube">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_RubixCube</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_knife_01_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_knife_01_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_knife_01_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Wall_Window_01_Blue-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Wall_Window_01_Blue">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_Window_01_Blue</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_01_Blue</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Door_02-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Door_02">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Door_02</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Door_02_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Door_02_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Door_02_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Door_Small_01_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Door_Small_01_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Door_Small_01_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_4-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_4">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_4</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_5-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_5">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_5</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_6-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_6">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_6</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_7-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_7">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_7</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_8-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_8">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_8</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_9-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_9">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_9</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Large_Window_05_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Large_Window_05_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_10-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_10">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_10</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_11-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_11">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_11</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_12-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_12">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_12</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_13-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_13">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_13</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_14-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_14">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_14</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_15-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_15">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_15</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Large_Window_05_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_4-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_4">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Large_Window_05_4</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_16-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_16">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_16</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_17-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_17">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_17</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_18-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_18">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_18</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_19-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_19">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_19</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_20-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_20">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_20</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_21-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_21">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_21</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_22-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_22">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_22</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_23-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_23">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_23</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_4-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_4">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large_4</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_5-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_5">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large_5</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_6-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_6">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large_6</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_7-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_7">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large_7</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_5-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_5">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Large_Window_05_5</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_24-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_24">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_24</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_8-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_8">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large_8</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_9-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_9">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large_9</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_25-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_25">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_25</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_26-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_26">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_26</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_6-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05_6">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Large_Window_05_6</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_27-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_27">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_27</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_10-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_10">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large_10</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_11-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large_11">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large_11</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_28-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_28">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_28</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_29-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_29">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_29</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_30-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_30">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_30</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_31-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_31">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_31</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_32-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_32">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_32</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_33-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_33">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_33</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_34-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_34">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_34</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_35-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01_35">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01_35</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Door_Small_01_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Door_Small_01_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Door_Small_01_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_CornerBlock_large">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_CornerBlock_large</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Large_Window_05">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Large_Window_05</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Door_Small_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Env_Wall_Door_Small_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Env_Wall_Door_Small_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_01_Blue_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_01_Blue_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_01_Blue_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_4-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_4">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_01_Blue_4</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_5-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_5">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_01_Blue_5</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_6-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_6">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_01_Blue_6</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Wall_Door_01_Blue_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Wall_Door_01_Blue_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_Door_01_Blue_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_7-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_7">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_01_Blue_7</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_8-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Wall_01_Blue_8">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_01_Blue_8</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Bed-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Bed">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bed</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Drawer-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Drawer">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drawer</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Lamp-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Lamp">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#BigDrawer-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#BigDrawer">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BigDrawer</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#TallLamp-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#TallLamp">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TallLamp</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Mirror.1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Mirror.1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirror.1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Bookshelf-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Bookshelf">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bookshelf</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Book.1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Book.1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book.1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Book.2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Book.2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book.2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Book.3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Book.3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book.3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Book.4-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Book.4">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book.4</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Book.5-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Book.5">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book.5</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Drawer_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Drawer_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drawer_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Drawer_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Drawer_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drawer_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Bookshelf_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Bookshelf_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bookshelf_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_4-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_4">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood_4</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_5-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_5">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood_5</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_6-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_6">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood_6</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_7-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_7">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood_7</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_8-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_8">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood_8</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_9-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_9">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood_9</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_10-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_10">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood_10</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_11-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Wood_11">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Wood_11</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Red-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Red">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Curtains_Red</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Red_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Red_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Curtains_Red_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Rug_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Rug_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Rug_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_shelf_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_shelf_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_shelf_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Refridgerator_Empty-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Refridgerator_Empty">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refridgerator_Empty</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_4-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_4">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_4</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_5-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_5">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_5</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_6-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_6">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_6</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_7-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_7">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_7</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Refridgerator_UpperDrawer-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Refridgerator_UpperDrawer">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refridgerator_UpperDrawer</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_34559-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_34559">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_34559</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Refridgerator_Door-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Refridgerator_Door">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refridgerator_Door</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_97832-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_97832">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_97832</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink_WithoutDrawers-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink_WithoutDrawers">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink_WithoutDrawers</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_4_65253-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_4_65253">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_4_65253</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_5_89013-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_5_89013">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_5_89013</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_6_41405-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_6_41405">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_6_41405</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_7_79703-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_7_79703">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_7_79703</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_4_56488-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_4_56488">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_4_56488</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink_Drawer1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink_Drawer1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink_Drawer1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_68380-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_68380">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_68380</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_86271-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_86271">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_1_86271</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_31866-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_31866">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_2_31866</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_28928-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_28928">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_3_28928</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Knife_Table-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Knife_Table">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Knife_Table</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Spoon_Soup-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Spoon_Soup">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Spoon_Soup</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Spoon_Soup_88278-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Spoon_Soup_88278">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Spoon_Soup_88278</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Spoon_Soup_10143-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Spoon_Soup_10143">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Spoon_Soup_10143</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Spoon_Soup_24722-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Spoon_Soup_24722">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Spoon_Soup_24722</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Knife_Table_48929-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Knife_Table_48929">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Knife_Table_48929</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Knife_Table_12175-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Knife_Table_12175">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Knife_Table_12175</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Knife_Table_84538-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Knife_Table_84538">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Knife_Table_84538</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Fork_Dinner-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Fork_Dinner">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Fork_Dinner</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Fork_Dinner_15572-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Fork_Dinner_15572">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Fork_Dinner_15572</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Fork_Dinner_69885-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Fork_Dinner_69885">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Fork_Dinner_69885</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Fork_Dinner_17398-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Fork_Dinner_17398">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Fork_Dinner_17398</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink_Drawer2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink_Drawer2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink_Drawer2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_44086-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_44086">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_44086</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_33376-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_33376">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_1_33376</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_99358-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_99358">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_2_99358</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_76169-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_76169">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_3_76169</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink_DoorL-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink_DoorL">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink_DoorL</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_87951-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_87951">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_87951</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink_DoorR-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink_DoorR">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink_DoorR</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_60132-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_60132">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_60132</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink.2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink.2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink.2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#MicrowaveBack-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#MicrowaveBack">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MicrowaveBack</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_76983-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_76983">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_76983</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_66524-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_66524">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_1_66524</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_8193-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_8193">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_2_8193</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_62137-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_62137">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_3_62137</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_4_14793-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_4_14793">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_4_14793</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#MicrowaveFrontModel-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#MicrowaveFrontModel">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MicrowaveFrontModel</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_59574-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_59574">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_59574</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink1_Empty-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink1_Empty">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_Empty</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_75106-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_75106">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_75106</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink1_Drawer2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink1_Drawer2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_Drawer2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_81478-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_81478">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_81478</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_70777-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_70777">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_1_70777</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_70553-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_70553">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_2_70553</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_59990-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_59990">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_3_59990</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink1_Drawer3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink1_Drawer3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_Drawer3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_62369-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_62369">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_62369</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_87286-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_87286">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_1_87286</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_70115-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_70115">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_2_70115</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_92970-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_92970">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_3_92970</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink1_Drawer4-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink1_Drawer4">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_Drawer4</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_34343-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_34343">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_34343</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_33534-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_33534">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_1_33534</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_61029-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_61029">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_2_61029</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_73054-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_73054">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_3_73054</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink1_Drawer5-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink1_Drawer5">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_Drawer5</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_84650-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_84650">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_84650</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_12959-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_1_12959">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_1_12959</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_60947-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_2_60947">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_2_60947</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_83299-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_3_83299">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_3_83299</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink1_DoorL-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink1_DoorL">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_DoorL</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_3736-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_3736">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_3736</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink1_DoorR-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink1_DoorR">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_DoorR</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_17042-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_17042">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_17042</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink1_SinkDoor-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink1_SinkDoor">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_SinkDoor</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_33884-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_33884">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_33884</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sink1_OvenDoor-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sink1_OvenDoor">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sink1_OvenDoor</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_21715-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_21715">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_21715</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_4_49644-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_4_49644">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_4_49644</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_5_74574-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_5_74574">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_5_74574</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_6_77647-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_6_77647">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_6_77647</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_7_63222-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_7_63222">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_7_63222</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_8-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_8">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_8</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_9-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_9">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_9</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_10-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_10">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_10</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_11-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_11">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_11</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_12-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_12">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_12</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_13-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_13">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_13</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Bookshelf_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Bookshelf_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bookshelf_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#appleGreen-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#appleGreen">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appleGreen</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#radish-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#radish">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radish</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#cucumber-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#cucumber">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cucumber</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#banana-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#banana">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">banana</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#potatoYellow-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#potatoYellow">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potatoYellow</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#pawpaw-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#pawpaw">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pawpaw</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#appleRed-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#appleRed">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appleRed</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#appleGreen_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#appleGreen_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appleGreen_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#radish_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#radish_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radish_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#potatoYellow_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#potatoYellow_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potatoYellow_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#radish_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#radish_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radish_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#carrot-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#carrot">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carrot</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Saucer-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Saucer">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Saucer</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Saucer_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Saucer_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Saucer_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Saucer_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Saucer_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Saucer_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Saucer_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Saucer_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Saucer_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_26cm-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_26cm">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_26cm</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_26cm_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_26cm_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_26cm_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_26cm_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_26cm_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_26cm_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_26cm_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_26cm_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_26cm_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_21cm-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_21cm">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_21cm</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_21cm_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_21cm_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_21cm_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_21cm_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_21cm_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_21cm_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_21cm_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_21cm_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_21cm_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_16cm-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_16cm">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_16cm</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_16cm_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_16cm_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_16cm_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_16cm_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_16cm_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_16cm_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_16cm_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Plate_Classic_16cm_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Plate_Classic_16cm_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_Small-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_Small">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Bowl_Small</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_Small_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_Small_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Bowl_Small_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_Small_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_Small_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Bowl_Small_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_Small_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_Small_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Bowl_Small_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Bowl</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Bowl_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Bowl_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_Bowl_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_Bowl_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#BoxshelfModel-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#BoxshelfModel">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoxshelfModel</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Upper-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Upper">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Upper</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SM_TraySet_Mid-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SM_TraySet_Mid">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM_TraySet_Mid</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Trashcan1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Trashcan1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trashcan1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Trashcan1Cap-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Trashcan1Cap">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trashcan1Cap</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Tiles</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Tiles_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Tiles_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Tiles_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_4-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_4">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Tiles_4</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_5-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_5">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Tiles_5</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_6-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_6">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Tiles_6</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_7-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_7">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Tiles_7</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_8-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Tiles_8">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Tiles_8</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_shelf_01_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_shelf_01_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_shelf_01_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Table-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Table">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Table</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Chair-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Chair">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chair</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Chair_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Chair_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chair_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Chair_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Chair_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chair_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Chair_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Chair_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chair_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Sofa.1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Sofa.1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofa.1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Blue-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Blue">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Curtains_Blue</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Blue_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Blue_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Curtains_Blue_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Cupboard_03-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Cupboard_03">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Cupboard_03</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Bonzai-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Bonzai">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Bonzai</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Big_Clock-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Big_Clock">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Big_Clock</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Blue_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Blue_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Curtains_Blue_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Blue_3-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Curtains_Blue_3">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Curtains_Blue_3</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Rug_03-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Rug_03">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Rug_03</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Fireplace_02-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Fireplace_02">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Fireplace_02</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Speaker_02-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Speaker_02">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Speaker_02</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_WallArt_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_WallArt_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_WallArt_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Speaker_02_1-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Speaker_02_1">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Speaker_02_1</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_WallArt_02-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_WallArt_02">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_WallArt_02</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_WallArt_03-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_WallArt_03">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_WallArt_03</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Bar_Bench-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Bar_Bench">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Bar_Bench</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Shelf_011_2-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Shelf_011_2">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Shelf_011_2</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Grey-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Carpet_Grey">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Carpet_Grey</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Shelf_011-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Shelf_011">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Shelf_011</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_knife_01_2_92314-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#scp_mw_knife_01_2_92314">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scp_mw_knife_01_2_92314</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Pinboard_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Pinboard_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Pinboard_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Papers_03-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Papers_03">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Papers_03</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Shelf_04-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Shelf_04">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Shelf_04</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Floor_Vinyl-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Floor_Vinyl">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Vinyl</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#BathSink-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#BathSink">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BathSink</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Bathtub-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Bathtub">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bathtub</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Plunger-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Plunger">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plunger</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Mirror-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Mirror">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirror</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Toilet_Paper-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Toilet_Paper">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toilet_Paper</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Towel_Rack-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Towel_Rack">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Towel_Rack</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#BroomBottom-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#BroomBottom">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BroomBottom</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#BroomTop-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#BroomTop">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BroomTop</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Cube_21977-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Cube_21977">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cube_21977</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#ground-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#ground">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ground</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_BathMat_Blue-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_BathMat_Blue">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_BathMat_Blue</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_Toilet_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_Toilet_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_Toilet_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Prop_ToiletSeat_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Prop_ToiletSeat_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prop_ToiletSeat_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#TV-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#TV">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TV</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#TVTable-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#TVTable">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TVTable</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SO_Clipboard-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SO_Clipboard">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO_Clipboard</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Items_FryPan_01-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Items_FryPan_01">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items_FryPan_01</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#SI_Food_Meat_Steak_Raw-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#SI_Food_Meat_Steak_Raw">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SI_Food_Meat_Steak_Raw</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+	<!-- http://knowrob.org/kb/Kitchen-clash.owl#Oil-->
+
+		<owl:NamedIndividual rdf:about="http://knowrob.org/kb/Kitchen-clash.owl#Oil">
+			<rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+			<urdf:hasBaseLinkName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</urdf:hasBaseLinkName>
+		</owl:NamedIndividual>
+
+
+</rdf:RDF>

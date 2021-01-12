@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="avatar_yasmin">
 <link name="root">
-  <visual>
-    <geometry>
-      <box size="0.1 0.05 0.05"/>
-    </geometry>
-  </visual>
 </link>
 
 <link name="pelvis">
