@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="KitchenClash0.urdf">
+   <link name="room_link">
+      <inertial>
+         <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
+         <mass value="1" />
+         <inertia ixx="1" ixy="0.0" ixz="0.0" iyy="1" iyz="0.0" izz="1" />
+      </inertial>
+   </link>
+   <link name="world" />
+   <joint name="world_room_joint" type="fixed">
+      <origin rpy="0 0 0" xyz="0.0 0.03 0.0" />
+      <parent link="world" />
+      <child link="room_link" />
+   </joint>
+   <link name="tomato" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+      <sphere_inertia mass="0" radius="0" />
+      <visual>
+         <origin rpy="0 0 0" xyz="0 0 0" />
+         <geometry>
+            <mesh filename="package://h_neem/meshes/final_collada_meshes//STATIC_ALL.obj" scale="10 10 10" />
+         </geometry>
+      </visual>
+   </link>
+   <joint name="tomato_joint" type="fixed">
+      <origin rpy="0.0 0.0 0.0" xyz="-17.101 1.733 -2.17" />
+      <child link="tomato" />
+      <parent link="room_link" />
+      <axis xyz="0 0 0" />
+      <limit effort="300" lower="0" upper="0" velocity="10" />
+   </joint>
+
+</robot>
