@@ -7,6 +7,8 @@
 @license BSD
 */
 
+:- use_module(library('http/json')).
+
 %% triple(?Subject, ?Property, ?Value) is nondet.
 %
 % Query values of a property on some subject in the triple DB.
@@ -59,6 +61,43 @@ aggregate(Triples) ?>
 	{ tripledb_aggregate(Triples,QScope,FScope,Options)
 	}.
 
+%% reads json data and asserts into mongodb
+%
+% @param FilePath - Path to the json file
+%
+
+triple_import_json(FilePath) :-
+	open(FilePath,read,Stream),
+	read_data(Stream,_Triples),
+	close(Stream).
+
+read_data(Stream,[]):-
+	at_end_of_stream(Stream).
+
+read_data(Stream,[TriplesDict | Rest]):-
+	json:json_read_dict(Stream, TriplesDict),
+	assert_triple_data(TriplesDict),
+	read_data(Stream,Rest).
+
+assert_triple_data(Triples) :-
+    is_dict(Triples),!,
+	get_dict(s, Triples, S),
+	get_dict(p, Triples, P),
+	get_dict(o, Triples, O),
+	(is_dict(O) ->
+	findall(Value, (Value = O.Key), Values),
+	member(Object, Values),
+	atom_string(O_atom,Object);
+	atom_string(O_atom, O)),
+	atom_string(S_atom, S),
+	atom_string(P_atom, P),
+	tell(triple(S_atom, P_atom, O_atom)).
+
+assert_triple_data(TriplesList) :-
+    %handle case when given given triples are list
+    is_list(TriplesList),!,
+    forall(member(X,TriplesList), assert_triple_data(X)).
+
      /*******************************
      *	    UNIT TESTS	     		    *
      *******************************/
@@ -68,6 +107,11 @@ aggregate(Triples) ?>
     'package://knowrob/owl/test/swrl.owl',
     [ namespace('http://knowrob.org/kb/swrl_test#')
     ]).
+
+test('aggregate simple') :-
+	assert_true(ask(aggregate([
+		triple(_,owl:onProperty,_)
+	]))).
 
 test('aggregate query') :-
 	findall([R0,P0,M0,O0],
@@ -116,5 +160,8 @@ test('aggregate query') :-
 %			triple(R,owl:minQualifiedCardinality,_),
 %			triple(R,owl:onClass,_)
 %		]))).
-  
+
+test('test with gtrace') :-
+    triple_import_json('/home/abhijit/Desktop/s028t05.json').
+
 :- end_tripledb_tests('lang_triple').
