@@ -18,7 +18,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//tomato.dae" scale="10 10 10" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/tomato.dae" scale="10 10 10" />
          </geometry>
       </visual>
    </link>
@@ -34,7 +34,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//lettuce.dae" scale="10 10 10" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/lettuce.dae" scale="10 10 10" />
          </geometry>
       </visual>
    </link>
@@ -50,7 +50,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//lemon.dae" scale="0.1 0.1 0.1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/lemon.dae" scale="0.1 0.1 0.1" />
          </geometry>
       </visual>
    </link>
@@ -66,7 +66,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//garlic.dae" scale="10 10 10" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/garlic.dae" scale="10 10 10" />
          </geometry>
       </visual>
    </link>
@@ -82,7 +82,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//fig.dae" scale="0.05 0.05 0.05" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/fig.dae" scale="0.05 0.05 0.05" />
          </geometry>
       </visual>
    </link>
@@ -98,7 +98,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//eggplant.dae" scale="10 10 10" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/eggplant.dae" scale="10 10 10" />
          </geometry>
       </visual>
    </link>
@@ -114,7 +114,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//chiliPepper.dae" scale="10 10 10" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/chiliPepper.dae" scale="10 10 10" />
          </geometry>
       </visual>
    </link>
@@ -130,7 +130,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//cherry.dae" scale="0.1 0.09999996 0.09999996" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/cherry.dae" scale="0.1 0.09999996 0.09999996" />
          </geometry>
       </visual>
    </link>
@@ -146,7 +146,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//cauliflower.dae" scale="10 9.999998 9.999998" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/cauliflower.dae" scale="10 9.999998 9.999998" />
          </geometry>
       </visual>
    </link>
@@ -162,7 +162,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//broccoli.dae" scale="10 10 10" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/broccoli.dae" scale="10 10 10" />
          </geometry>
       </visual>
    </link>
@@ -178,7 +178,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//bellPepperOrange.dae" scale="10 9.999998 9.999998" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/bellPepperOrange.dae" scale="10 9.999998 9.999998" />
          </geometry>
       </visual>
    </link>
@@ -194,7 +194,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//bellPepperOrange.dae" scale="10 9.999998 9.999998" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/bellPepperOrange.dae" scale="10 9.999998 9.999998" />
          </geometry>
       </visual>
    </link>
@@ -210,7 +210,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//bellPepperOrange.dae" scale="10 9.999998 9.999998" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/bellPepperOrange.dae" scale="10 9.999998 9.999998" />
          </geometry>
       </visual>
    </link>
@@ -226,7 +226,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//apricot.dae" scale="0.1 0.09999996 0.09999996" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/apricot.dae" scale="0.1 0.09999996 0.09999996" />
          </geometry>
       </visual>
    </link>
@@ -242,7 +242,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Plant_02.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Plant_02.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -258,7 +258,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Plant.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Plant.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
@@ -274,7 +274,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Plant_01.dae" scale="0.7 0.7 0.7" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Plant_01.dae" scale="0.7 0.7 0.7" />
          </geometry>
       </visual>
    </link>
@@ -290,7 +290,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Plant.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Plant.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
@@ -306,7 +306,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Plant_03.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Plant_03.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -322,7 +322,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Pen_02.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Pen_02.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -338,7 +338,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Pen_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Pen_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -354,7 +354,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_CarboardBox_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_CarboardBox_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -370,7 +370,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Broom.dae" scale="1.5 1.5 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Broom.dae" scale="1.5 1.5 1.5" />
          </geometry>
       </visual>
    </link>
@@ -386,7 +386,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Boxfile_06.dae" scale="1 1 0.6263629" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Boxfile_06.dae" scale="1 1 0.6263629" />
          </geometry>
       </visual>
    </link>
@@ -402,7 +402,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Boxfile_05.dae" scale="1 1 0.6263629" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Boxfile_05.dae" scale="1 1 0.6263629" />
          </geometry>
       </visual>
    </link>
@@ -418,7 +418,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Boxfile_03.dae" scale="1 1 0.6263629" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Boxfile_03.dae" scale="1 1 0.6263629" />
          </geometry>
       </visual>
    </link>
@@ -434,7 +434,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Boxfile_01.dae" scale="1 1 0.6263629" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Boxfile_01.dae" scale="1 1 0.6263629" />
          </geometry>
       </visual>
    </link>
@@ -450,7 +450,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_Wrench_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_Wrench_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -466,7 +466,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_Spanner_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_Spanner_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -482,7 +482,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_SmartPhone_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_SmartPhone_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -498,7 +498,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_SledgeHammer_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_SledgeHammer_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -514,7 +514,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_ScrewDriver_03.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_ScrewDriver_03.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -530,7 +530,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_ScrewDriver_02.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_ScrewDriver_02.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -546,7 +546,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_ScrewDriver_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_ScrewDriver_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -562,7 +562,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_Hammer_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_Hammer_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -578,7 +578,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_FlashLight_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_FlashLight_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -594,7 +594,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_Drill_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_Drill_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -610,7 +610,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_CrowBar_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_CrowBar_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -626,7 +626,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_knife_01.dae" scale="1.5 1.5 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_knife_01.dae" scale="1.5 1.5 1.5" />
          </geometry>
       </visual>
    </link>
@@ -642,7 +642,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_rolling_pin.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_rolling_pin.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -658,7 +658,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_cleaver_knife_02.dae" scale="1.5 1.5 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_cleaver_knife_02.dae" scale="1.5 1.5 1.5" />
          </geometry>
       </visual>
    </link>
@@ -674,7 +674,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_kitchen_turner.dae" scale="1.5 1.5 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_kitchen_turner.dae" scale="1.5 1.5 1.5" />
          </geometry>
       </visual>
    </link>
@@ -690,7 +690,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_kitchen_fork.dae" scale="1.5 1.5 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_kitchen_fork.dae" scale="1.5 1.5 1.5" />
          </geometry>
       </visual>
    </link>
@@ -706,7 +706,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_flyswatter_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_flyswatter_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -722,7 +722,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_flyswatter_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_flyswatter_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -738,7 +738,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_fire_poker.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_fire_poker.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
@@ -754,7 +754,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_baseball_bat_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_baseball_bat_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -770,7 +770,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_knife_01.dae" scale="1.25 1.25 1.25" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_knife_01.dae" scale="1.25 1.25 1.25" />
          </geometry>
       </visual>
    </link>
@@ -786,7 +786,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_axe.dae" scale="0.9999999 1 0.9999999" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_axe.dae" scale="0.9999999 1 0.9999999" />
          </geometry>
       </visual>
    </link>
@@ -802,7 +802,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -818,7 +818,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_knife_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_knife_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -834,7 +834,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Wall_Window_01_Blue.dae" scale="1 1.37582 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Wall_Window_01_Blue.dae" scale="1 1.37582 1" />
          </geometry>
       </visual>
    </link>
@@ -850,7 +850,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Wall_01_Blue.dae" scale="0.9836292 1.37582 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Wall_01_Blue.dae" scale="0.9836292 1.37582 1" />
          </geometry>
       </visual>
    </link>
@@ -866,7 +866,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Door.dae" scale="1.5 1.5 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Door.dae" scale="1.5 1.5 1.5" />
          </geometry>
       </visual>
    </link>
@@ -882,7 +882,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Door.dae" scale="1.5 1.5 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Door.dae" scale="1.5 1.5 1.5" />
          </geometry>
       </visual>
    </link>
@@ -898,7 +898,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.500001 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.500001 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -914,7 +914,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="2.486224 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="2.486224 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -930,7 +930,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Door.dae" scale="1.500001 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Door.dae" scale="1.500001 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -946,7 +946,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="7.983422 1.375825 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="7.983422 1.375825 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -962,7 +962,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.938913 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.938913 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -978,7 +978,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.92894 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.92894 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -994,7 +994,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="0.5487624 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="0.5487624 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1010,7 +1010,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="3.021991 1.375825 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="3.021991 1.375825 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1026,7 +1026,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.463049 1.375825 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.463049 1.375825 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1042,7 +1042,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="0.521699 1.375825 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="0.521699 1.375825 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1058,7 +1058,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_Large_Window_05.dae" scale="1.498638 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_Large_Window_05.dae" scale="1.498638 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1074,7 +1074,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_Large_Window_05.dae" scale="1.493677 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_Large_Window_05.dae" scale="1.493677 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1090,7 +1090,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="3.310626 2.029973 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="3.310626 2.029973 1" />
          </geometry>
       </visual>
    </link>
@@ -1106,7 +1106,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="0.435338 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="0.435338 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1122,7 +1122,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="3.040643 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="3.040643 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1138,7 +1138,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="0.4467676 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="0.4467676 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1154,7 +1154,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.410579 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.410579 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1170,7 +1170,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.550276 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.550276 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1186,7 +1186,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.585812 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.585812 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1202,7 +1202,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="4.693148 2.029974 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="4.693148 2.029974 1" />
          </geometry>
       </visual>
    </link>
@@ -1218,7 +1218,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_Large_Window_05.dae" scale="1.493677 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_Large_Window_05.dae" scale="1.493677 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1234,7 +1234,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_Large_Window_05.dae" scale="1.493677 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_Large_Window_05.dae" scale="1.493677 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1250,7 +1250,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="0.4189188 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="0.4189188 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1266,7 +1266,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="0.4802328 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="0.4802328 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1282,7 +1282,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="0.9712939 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="0.9712939 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1298,7 +1298,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="0.5070612 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="0.5070612 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1314,7 +1314,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="0.4802328 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="0.4802328 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1330,7 +1330,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="0.9615195 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="0.9615195 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1346,7 +1346,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.420831 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.420831 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1362,7 +1362,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.420831 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.420831 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1378,7 +1378,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="3.310629 2.029974 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="3.310629 2.029974 1" />
          </geometry>
       </visual>
    </link>
@@ -1394,7 +1394,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="3.832413 2.029977 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="3.832413 2.029977 1" />
          </geometry>
       </visual>
    </link>
@@ -1410,7 +1410,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="18.85514 1.082319 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="18.85514 1.082319 1" />
          </geometry>
       </visual>
    </link>
@@ -1426,7 +1426,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="2.42572 0.2521545 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="2.42572 0.2521545 1" />
          </geometry>
       </visual>
    </link>
@@ -1442,7 +1442,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="2.42572 0.2521545 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="2.42572 0.2521545 1" />
          </geometry>
       </visual>
    </link>
@@ -1458,7 +1458,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_Large_Window_05.dae" scale="1.49368 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_Large_Window_05.dae" scale="1.49368 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1474,7 +1474,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.512051 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.512051 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1490,7 +1490,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="3.310633 1.14312 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="3.310633 1.14312 1" />
          </geometry>
       </visual>
    </link>
@@ -1506,7 +1506,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="3.832413 1.143126 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="3.832413 1.143126 1" />
          </geometry>
       </visual>
    </link>
@@ -1522,7 +1522,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.081998 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.081998 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1538,7 +1538,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.077823 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.077823 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1554,7 +1554,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_Large_Window_05.dae" scale="1.863593 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_Large_Window_05.dae" scale="1.863593 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1570,7 +1570,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.886512 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.886512 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1586,7 +1586,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="3.310633 1.426217 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="3.310633 1.426217 1" />
          </geometry>
       </visual>
    </link>
@@ -1602,7 +1602,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="3.832413 1.426229 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="3.832413 1.426229 1" />
          </geometry>
       </visual>
    </link>
@@ -1618,7 +1618,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.087684 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.087684 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1634,7 +1634,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.083482 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.083482 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1650,7 +1650,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="3.026206 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="3.026206 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1666,7 +1666,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="3.014515 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="3.014515 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1682,7 +1682,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="3.051415 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="3.051415 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1698,7 +1698,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="3.039625 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="3.039625 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1714,7 +1714,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="3.708599 1.375821 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="3.708599 1.375821 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1730,7 +1730,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="2.70336 1.37582 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="2.70336 1.37582 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1746,7 +1746,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Door.dae" scale="1.500001 1.37582 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Door.dae" scale="1.500001 1.37582 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1762,7 +1762,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_CornerBlock.dae" scale="3.000001 1.238274 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_CornerBlock.dae" scale="3.000001 1.238274 1" />
          </geometry>
       </visual>
    </link>
@@ -1778,7 +1778,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_Large_Window_05.dae" scale="1.991569 1.375823 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_Large_Window_05.dae" scale="1.991569 1.375823 1.5" />
          </geometry>
       </visual>
    </link>
@@ -1794,7 +1794,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Env_Wall_01.dae" scale="1.296447 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Env_Wall_01.dae" scale="1.296447 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1810,7 +1810,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Door.dae" scale="1.500001 1.375823 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Door.dae" scale="1.500001 1.375823 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -1826,7 +1826,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Wall_01_Blue.dae" scale="0.5434286 1.37582 1.000001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Wall_01_Blue.dae" scale="0.5434286 1.37582 1.000001" />
          </geometry>
       </visual>
    </link>
@@ -1842,7 +1842,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Wall_01_Blue.dae" scale="2.520073 1.375821 1.000001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Wall_01_Blue.dae" scale="2.520073 1.375821 1.000001" />
          </geometry>
       </visual>
    </link>
@@ -1858,7 +1858,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Wall_01_Blue.dae" scale="3.122802 1.37582 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Wall_01_Blue.dae" scale="3.122802 1.37582 1" />
          </geometry>
       </visual>
    </link>
@@ -1874,7 +1874,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Wall_01_Blue.dae" scale="3.121479 1.375821 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Wall_01_Blue.dae" scale="3.121479 1.375821 1" />
          </geometry>
       </visual>
    </link>
@@ -1890,7 +1890,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Wall_01_Blue.dae" scale="1.531026 1.37582 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Wall_01_Blue.dae" scale="1.531026 1.37582 1" />
          </geometry>
       </visual>
    </link>
@@ -1906,7 +1906,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Wall_01_Blue.dae" scale="2.462096 1.378374 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Wall_01_Blue.dae" scale="2.462096 1.378374 1" />
          </geometry>
       </visual>
    </link>
@@ -1922,7 +1922,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Door.dae" scale="19.81002 18.37122 15" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Door.dae" scale="19.81002 18.37122 15" />
          </geometry>
       </visual>
    </link>
@@ -1938,7 +1938,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Wall_01_Blue.dae" scale="3.114844 1.37582 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Wall_01_Blue.dae" scale="3.114844 1.37582 1" />
          </geometry>
       </visual>
    </link>
@@ -1954,7 +1954,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Wall_01_Blue.dae" scale="3.113526 1.37582 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Wall_01_Blue.dae" scale="3.113526 1.37582 1" />
          </geometry>
       </visual>
    </link>
@@ -1970,7 +1970,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bed.dae" scale="100.0002 100.0002 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bed.dae" scale="100.0002 100.0002 100" />
          </geometry>
       </visual>
    </link>
@@ -1986,7 +1986,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Drawer.dae" scale="100.0002 100.0002 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Drawer.dae" scale="100.0002 100.0002 100" />
          </geometry>
       </visual>
    </link>
@@ -2002,7 +2002,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Lamp.dae" scale="100 100.0002 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Lamp.dae" scale="100 100.0002 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -2018,7 +2018,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//BigDrawer.dae" scale="100.0002 100.0002 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/BigDrawer.dae" scale="100.0002 100.0002 100" />
          </geometry>
       </visual>
    </link>
@@ -2034,7 +2034,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//TallLamp.dae" scale="100 100.0002 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/TallLamp.dae" scale="100 100.0002 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -2050,7 +2050,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Mirror.dae" scale="100.0002 100.0002 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Mirror.1.dae" scale="100.0002 100.0002 100" />
          </geometry>
       </visual>
    </link>
@@ -2066,7 +2066,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bookshelf.dae" scale="100 100.0002 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bookshelf.dae" scale="100 100.0002 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -2082,7 +2082,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Book.dae" scale="100 100.0002 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Book.1.dae" scale="100 100.0002 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -2098,7 +2098,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Book.dae" scale="100 100.0002 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Book.2.dae" scale="100 100.0002 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -2114,7 +2114,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Book.dae" scale="100 100.0002 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Book.3.dae" scale="100 100.0002 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -2130,7 +2130,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Book.dae" scale="100 100.0002 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Book.4.dae" scale="100 100.0002 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -2146,7 +2146,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Book.dae" scale="100.0002 100.0001 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Book.4.dae" scale="100.0002 100.0001 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -2162,7 +2162,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Drawer.dae" scale="100.0002 100.0002 80.00005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Drawer.dae" scale="100.0002 100.0002 80.00005" />
          </geometry>
       </visual>
    </link>
@@ -2178,7 +2178,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Drawer.dae" scale="100.0002 100.0002 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Drawer.dae" scale="100.0002 100.0002 100" />
          </geometry>
       </visual>
    </link>
@@ -2194,7 +2194,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bookshelf.dae" scale="100 100.0002 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bookshelf.dae" scale="100 100.0002 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -2210,7 +2210,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2226,7 +2226,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2242,7 +2242,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2258,7 +2258,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2274,7 +2274,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2290,7 +2290,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2306,7 +2306,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2322,7 +2322,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2338,7 +2338,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2354,7 +2354,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2370,7 +2370,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2386,7 +2386,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Wood.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Wood.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2402,7 +2402,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Curtains_Red.dae" scale="3 3 3" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Curtains_Red.dae" scale="3 3 3" />
          </geometry>
       </visual>
    </link>
@@ -2418,7 +2418,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Curtains_Red.dae" scale="3.750006 3 2.999996" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Curtains_Red.dae" scale="3.750006 3 2.999996" />
          </geometry>
       </visual>
    </link>
@@ -2434,7 +2434,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Rug_01.dae" scale="1.000001 1 1.000001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Rug_01.dae" scale="1.000001 1 1.000001" />
          </geometry>
       </visual>
    </link>
@@ -2450,7 +2450,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_shelf_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_shelf_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -2466,7 +2466,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Refridgerator_Empty.dae" scale="100 100 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Refridgerator_Empty.dae" scale="100 100 100" />
          </geometry>
       </visual>
    </link>
@@ -2482,7 +2482,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.08091746 5.288775 2.268258" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.08091746 5.288775 2.268258" />
          </geometry>
       </visual>
    </link>
@@ -2498,7 +2498,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.08092004 5.28878 2.268261" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.08092004 5.28878 2.268261" />
          </geometry>
       </visual>
    </link>
@@ -2514,7 +2514,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.823471 0.048707 2.268265" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.823471 0.048707 2.268265" />
          </geometry>
       </visual>
    </link>
@@ -2530,7 +2530,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.823471 0.1746452 2.268261" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.823471 0.1746452 2.268261" />
          </geometry>
       </visual>
    </link>
@@ -2546,7 +2546,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.823471 0.17465 2.268261" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.823471 0.17465 2.268261" />
          </geometry>
       </visual>
    </link>
@@ -2562,7 +2562,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.823471 5.271039 0.3559534" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.823471 5.271039 0.3559534" />
          </geometry>
       </visual>
    </link>
@@ -2578,7 +2578,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.823471 0.1746452 2.268261" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.823471 0.1746452 2.268261" />
          </geometry>
       </visual>
    </link>
@@ -2594,7 +2594,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.823471 0.1746452 2.268261" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.823471 0.1746452 2.268261" />
          </geometry>
       </visual>
    </link>
@@ -2610,7 +2610,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Refridgerator_UpperDrawer.dae" scale="100.0001 100 100.0001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Refridgerator_UpperDrawer.dae" scale="100.0001 100 100.0001" />
          </geometry>
       </visual>
    </link>
@@ -2626,7 +2626,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.705424 1.509925 0.1147065" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.705424 1.509925 0.1147065" />
          </geometry>
       </visual>
    </link>
@@ -2642,7 +2642,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Refridgerator_Door.dae" scale="100.0001 100 100.0001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Refridgerator_Door.dae" scale="100.0001 100 100.0001" />
          </geometry>
       </visual>
    </link>
@@ -2658,7 +2658,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.617761 3.421332 0.1141368" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.617761 3.421332 0.1141368" />
          </geometry>
       </visual>
    </link>
@@ -2674,7 +2674,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink_WithoutDrawers.dae" scale="100 100 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink_WithoutDrawers.dae" scale="100 100 100" />
          </geometry>
       </visual>
    </link>
@@ -2690,7 +2690,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="3.348583 0.10468 2.897985" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="3.348583 0.10468 2.897985" />
          </geometry>
       </visual>
    </link>
@@ -2706,7 +2706,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.1216646 2.845669 2.897985" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.1216646 2.845669 2.897985" />
          </geometry>
       </visual>
    </link>
@@ -2722,7 +2722,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="3.107209 -0.1363477 2.897985" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="3.107209 -0.1363477 2.897985" />
          </geometry>
       </visual>
    </link>
@@ -2738,7 +2738,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.03675667 2.84567 2.897982" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.03675667 2.84567 2.897982" />
          </geometry>
       </visual>
    </link>
@@ -2754,7 +2754,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="3.141916 0.10468 4.542276" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="3.141916 0.10468 4.542276" />
          </geometry>
       </visual>
    </link>
@@ -2770,7 +2770,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink_Drawer1.dae" scale="100 100 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink_Drawer1.dae" scale="100 100 100" />
          </geometry>
       </visual>
    </link>
@@ -2786,7 +2786,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="3.147494 0.6654342 0.02782831" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="3.147494 0.6654342 0.02782831" />
          </geometry>
       </visual>
    </link>
@@ -2802,7 +2802,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="4.239643 0.6654299 0.02783003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="4.239643 0.6654299 0.02783003" />
          </geometry>
       </visual>
    </link>
@@ -2818,7 +2818,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="4.239649 0.6654299 0.02783006" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="4.239649 0.6654299 0.02783006" />
          </geometry>
       </visual>
    </link>
@@ -2834,7 +2834,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="3.147493 0.09341167 4.682117" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="3.147493 0.09341167 4.682117" />
          </geometry>
       </visual>
    </link>
@@ -2850,7 +2850,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Knife_Table.dae" scale="5.000002 5.000004 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Knife_Table.dae" scale="5.000002 5.000004 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -2866,7 +2866,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Spoon_Soup.dae" scale="5.000002 5.000005 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Spoon_Soup.dae" scale="5.000002 5.000005 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -2882,7 +2882,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Spoon_Soup.dae" scale="5.000002 5.000005 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Spoon_Soup.dae" scale="5.000002 5.000005 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -2898,7 +2898,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Spoon_Soup.dae" scale="5.000002 5.000005 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Spoon_Soup.dae" scale="5.000002 5.000005 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -2914,7 +2914,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Spoon_Soup.dae" scale="5.000002 5.000005 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Spoon_Soup.dae" scale="5.000002 5.000005 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -2930,7 +2930,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Knife_Table.dae" scale="5.000002 5.000012 5.000022" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Knife_Table.dae" scale="5.000002 5.000012 5.000022" />
          </geometry>
       </visual>
    </link>
@@ -2946,7 +2946,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Knife_Table.dae" scale="5.000002 5.000022 5.000032" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Knife_Table.dae" scale="5.000002 5.000022 5.000032" />
          </geometry>
       </visual>
    </link>
@@ -2962,7 +2962,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Knife_Table.dae" scale="5.000002 5.000032 5.000042" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Knife_Table.dae" scale="5.000002 5.000032 5.000042" />
          </geometry>
       </visual>
    </link>
@@ -2978,7 +2978,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Fork_Dinner.dae" scale="5.000002 5.000005 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Fork_Dinner.dae" scale="5.000002 5.000005 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -2994,7 +2994,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Fork_Dinner.dae" scale="5.000002 5.000005 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Fork_Dinner.dae" scale="5.000002 5.000005 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -3010,7 +3010,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Fork_Dinner.dae" scale="5.000002 5.000005 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Fork_Dinner.dae" scale="5.000002 5.000005 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -3026,7 +3026,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Fork_Dinner.dae" scale="5.000002 5.000005 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Fork_Dinner.dae" scale="5.000002 5.000005 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -3042,7 +3042,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink_Drawer2.dae" scale="100.0001 100 100.0001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink_Drawer2.dae" scale="100.0001 100 100.0001" />
          </geometry>
       </visual>
    </link>
@@ -3058,7 +3058,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="3.141913 2.06833 0.09946635" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="3.141913 2.06833 0.09946635" />
          </geometry>
       </visual>
    </link>
@@ -3074,7 +3074,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="3.141913 0.1046796 4.542267" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="3.141913 0.1046796 4.542267" />
          </geometry>
       </visual>
    </link>
@@ -3090,7 +3090,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.06996797 2.068499 4.542279" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.06996797 2.068499 4.542279" />
          </geometry>
       </visual>
    </link>
@@ -3106,7 +3106,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.06997003 2.0685 4.542283" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.06997003 2.0685 4.542283" />
          </geometry>
       </visual>
    </link>
@@ -3122,7 +3122,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink_DoorL.dae" scale="100.0001 100 100.0001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink_DoorL.dae" scale="100.0001 100 100.0001" />
          </geometry>
       </visual>
    </link>
@@ -3138,7 +3138,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.484446 2.846416 0.1368888" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.484446 2.846416 0.1368888" />
          </geometry>
       </visual>
    </link>
@@ -3154,7 +3154,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink_DoorR.dae" scale="100.0001 100 100.0001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink_DoorR.dae" scale="100.0001 100 100.0001" />
          </geometry>
       </visual>
    </link>
@@ -3170,7 +3170,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.484446 2.846416 0.1368888" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.484446 2.846416 0.1368888" />
          </geometry>
       </visual>
    </link>
@@ -3186,7 +3186,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink.dae" scale="80.00002 100 115" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink.2.dae" scale="80.00002 100 115" />
          </geometry>
       </visual>
    </link>
@@ -3202,7 +3202,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//MicrowaveBack.dae" scale="100 100 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/MicrowaveBack.dae" scale="100 100 100" />
          </geometry>
       </visual>
    </link>
@@ -3218,7 +3218,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.02041721 0.9112679 1.078858" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.02041721 0.9112679 1.078858" />
          </geometry>
       </visual>
    </link>
@@ -3234,7 +3234,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.02042001 0.91127 1.078861" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.02042001 0.91127 1.078861" />
          </geometry>
       </visual>
    </link>
@@ -3250,7 +3250,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="-1.506821 0.02730078 1.078861" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="-1.506821 0.02730078 1.078861" />
          </geometry>
       </visual>
    </link>
@@ -3266,7 +3266,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="-1.506821 0.0273 1.078861" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="-1.506821 0.0273 1.078861" />
          </geometry>
       </visual>
    </link>
@@ -3282,7 +3282,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="-1.506821 0.9063507 0.0377599" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="-1.506821 0.9063507 0.0377599" />
          </geometry>
       </visual>
    </link>
@@ -3298,7 +3298,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//MicrowaveFront.dae" scale="100.0001 100 100.0001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/MicrowaveFront.dae" scale="100.0001 100 100.0001" />
          </geometry>
       </visual>
    </link>
@@ -3314,7 +3314,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.573503 0.9367769 0.1466089" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.573503 0.9367769 0.1466089" />
          </geometry>
       </visual>
    </link>
@@ -3330,7 +3330,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink1_Empty.dae" scale="100.0002 100 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink1_Empty.dae" scale="100.0002 100 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -3346,7 +3346,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.991668 0.5185444 0.1000003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.991668 0.5185444 0.1000003" />
          </geometry>
       </visual>
    </link>
@@ -3362,7 +3362,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink1_Drawer2.dae" scale="100.0002 100 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink1_Drawer2.dae" scale="100.0002 100 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -3378,7 +3378,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.399749 0.5842217 0.1000003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.399749 0.5842217 0.1000003" />
          </geometry>
       </visual>
    </link>
@@ -3394,7 +3394,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.399757 0.05856397 2.686821" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.399757 0.05856397 2.686821" />
          </geometry>
       </visual>
    </link>
@@ -3410,7 +3410,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.05611339 0.5787882 2.686832" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.05611339 0.5787882 2.686832" />
          </geometry>
       </visual>
    </link>
@@ -3426,7 +3426,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.05611021 0.5787885 2.686839" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.05611021 0.5787885 2.686839" />
          </geometry>
       </visual>
    </link>
@@ -3442,7 +3442,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink1_Drawer3.dae" scale="100.0002 100 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink1_Drawer3.dae" scale="100.0002 100 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -3458,7 +3458,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.399749 0.5842217 0.1000003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.399749 0.5842217 0.1000003" />
          </geometry>
       </visual>
    </link>
@@ -3474,7 +3474,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.399757 0.05856397 2.686821" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.399757 0.05856397 2.686821" />
          </geometry>
       </visual>
    </link>
@@ -3490,7 +3490,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.05611339 0.5787882 2.686832" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.05611339 0.5787882 2.686832" />
          </geometry>
       </visual>
    </link>
@@ -3506,7 +3506,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.05611021 0.5787885 2.686839" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.05611021 0.5787885 2.686839" />
          </geometry>
       </visual>
    </link>
@@ -3522,7 +3522,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink1_Drawer4.dae" scale="100.0002 100 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink1_Drawer4.dae" scale="100.0002 100 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -3538,7 +3538,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.399749 0.5842217 0.1000003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.399749 0.5842217 0.1000003" />
          </geometry>
       </visual>
    </link>
@@ -3554,7 +3554,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.399757 0.05856397 2.686821" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.399757 0.05856397 2.686821" />
          </geometry>
       </visual>
    </link>
@@ -3570,7 +3570,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.05611339 0.5787882 2.686832" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.05611339 0.5787882 2.686832" />
          </geometry>
       </visual>
    </link>
@@ -3586,7 +3586,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.05611021 0.5787885 2.686839" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.05611021 0.5787885 2.686839" />
          </geometry>
       </visual>
    </link>
@@ -3602,7 +3602,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink1_Drawer5.dae" scale="100.0002 100 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink1_Drawer5.dae" scale="100.0002 100 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -3618,7 +3618,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.399749 0.5842217 0.1000003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.399749 0.5842217 0.1000003" />
          </geometry>
       </visual>
    </link>
@@ -3634,7 +3634,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.399757 0.05856397 2.686821" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.399757 0.05856397 2.686821" />
          </geometry>
       </visual>
    </link>
@@ -3650,7 +3650,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.05611339 0.5787882 2.686832" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.05611339 0.5787882 2.686832" />
          </geometry>
       </visual>
    </link>
@@ -3666,7 +3666,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.05611021 0.5787885 2.686839" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.05611021 0.5787885 2.686839" />
          </geometry>
       </visual>
    </link>
@@ -3682,7 +3682,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink1_DoorL.dae" scale="100.0003 100 100.0003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink1_DoorL.dae" scale="100.0003 100 100.0003" />
          </geometry>
       </visual>
    </link>
@@ -3698,7 +3698,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.484451 2.84642 0.1368901" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.484451 2.84642 0.1368901" />
          </geometry>
       </visual>
    </link>
@@ -3714,7 +3714,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink1_DoorR.dae" scale="100.0003 99.99999 100.0003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink1_DoorR.dae" scale="100.0003 99.99999 100.0003" />
          </geometry>
       </visual>
    </link>
@@ -3730,7 +3730,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.484452 2.84642 0.1368902" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.484452 2.84642 0.1368902" />
          </geometry>
       </visual>
    </link>
@@ -3746,7 +3746,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink1_SinkDoor.dae" scale="100.0003 82.0691 100.0003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink1_SinkDoor.dae" scale="100.0003 82.0691 100.0003" />
          </geometry>
       </visual>
    </link>
@@ -3762,7 +3762,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.484451 2.336031 0.1368901" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.484451 2.336031 0.1368901" />
          </geometry>
       </visual>
    </link>
@@ -3778,7 +3778,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sink1_OvenDoor.dae" scale="100.0006 99.99998 100.0006" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sink1_OvenDoor.dae" scale="100.0006 99.99998 100.0006" />
          </geometry>
       </visual>
    </link>
@@ -3794,7 +3794,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="3.139006 2.084798 0.1368901" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="3.139006 2.084798 0.1368901" />
          </geometry>
       </visual>
    </link>
@@ -3810,7 +3810,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.154992 0.10468 9.385673" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.154992 0.10468 9.385673" />
          </geometry>
       </visual>
    </link>
@@ -3826,7 +3826,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.155 2.842929 0.1149633" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.155 2.842929 0.1149633" />
          </geometry>
       </visual>
    </link>
@@ -3842,7 +3842,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.155004 2.84293 0.002944902" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.155004 2.84293 0.002944902" />
          </geometry>
       </visual>
    </link>
@@ -3858,7 +3858,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.155004 2.84293 0.145644" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.155004 2.84293 0.145644" />
          </geometry>
       </visual>
    </link>
@@ -3874,7 +3874,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.155004 2.84293 0.1333047" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.155004 2.84293 0.1333047" />
          </geometry>
       </visual>
    </link>
@@ -3890,7 +3890,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.155004 2.84293 0.1333003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.155004 2.84293 0.1333003" />
          </geometry>
       </visual>
    </link>
@@ -3906,7 +3906,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.155005 2.408336 0.03769283" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.155005 2.408336 0.03769283" />
          </geometry>
       </visual>
    </link>
@@ -3922,7 +3922,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.154994 0.10468 6.365604" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.154994 0.10468 6.365604" />
          </geometry>
       </visual>
    </link>
@@ -3938,7 +3938,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="0.1000909 2.96458 9.385706" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="0.1000909 2.96458 9.385706" />
          </geometry>
       </visual>
    </link>
@@ -3954,7 +3954,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="2.154994 0.10468 3.044195" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="2.154994 0.10468 3.044195" />
          </geometry>
       </visual>
    </link>
@@ -3970,7 +3970,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bookshelf.dae" scale="75.00002 75 75.00002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bookshelf.dae" scale="75.00002 75 75.00002" />
          </geometry>
       </visual>
    </link>
@@ -3986,7 +3986,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//appleGreen.dae" scale="0.1 0.1 0.09999999" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/appleGreen.dae" scale="0.1 0.1 0.09999999" />
          </geometry>
       </visual>
    </link>
@@ -4002,7 +4002,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//radish.dae" scale="8.000001 8.000002 8.000001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/radish.dae" scale="8.000001 8.000002 8.000001" />
          </geometry>
       </visual>
    </link>
@@ -4018,7 +4018,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//cucumber.dae" scale="10 10 10" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/cucumber.dae" scale="10 10 10" />
          </geometry>
       </visual>
    </link>
@@ -4034,7 +4034,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//banana.dae" scale="0.1 0.1 0.09999999" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/banana.dae" scale="0.1 0.1 0.09999999" />
          </geometry>
       </visual>
    </link>
@@ -4050,7 +4050,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//potatoBrown.dae" scale="10 10 10" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/potatoBrown.dae" scale="10 10 10" />
          </geometry>
       </visual>
    </link>
@@ -4066,7 +4066,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//pawpaw.dae" scale="0.1 0.1 0.09999999" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/pawpaw.dae" scale="0.1 0.1 0.09999999" />
          </geometry>
       </visual>
    </link>
@@ -4082,7 +4082,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//appleRed.dae" scale="0.1 0.1 0.09999999" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/appleRed.dae" scale="0.1 0.1 0.09999999" />
          </geometry>
       </visual>
    </link>
@@ -4098,7 +4098,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//appleGreen.dae" scale="0.1 0.1 0.09999999" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/appleGreen.dae" scale="0.1 0.1 0.09999999" />
          </geometry>
       </visual>
    </link>
@@ -4114,7 +4114,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//radish.dae" scale="8.000001 8.000002 8.000001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/radish.dae" scale="8.000001 8.000002 8.000001" />
          </geometry>
       </visual>
    </link>
@@ -4130,7 +4130,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//potatoBrown.dae" scale="10 9.99999 9.999988" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/potatoBrown.dae" scale="10 9.99999 9.999988" />
          </geometry>
       </visual>
    </link>
@@ -4146,7 +4146,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//radish.dae" scale="8.000001 8.000002 8.000001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/radish.dae" scale="8.000001 8.000002 8.000001" />
          </geometry>
       </visual>
    </link>
@@ -4162,7 +4162,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//carrot.dae" scale="10 10 10" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/carrot.dae" scale="10 10 10" />
          </geometry>
       </visual>
    </link>
@@ -4178,7 +4178,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Saucer.dae" scale="5.000001 5.000003 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Saucer.dae" scale="5.000001 5.000003 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -4194,7 +4194,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Saucer.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Saucer.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4210,7 +4210,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Saucer.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Saucer.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4226,7 +4226,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Saucer.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Saucer.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4242,7 +4242,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_26cm.dae" scale="5.000001 5.000003 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_26cm.dae" scale="5.000001 5.000003 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -4258,7 +4258,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_26cm.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_26cm.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4274,7 +4274,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_26cm.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_26cm.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4290,7 +4290,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_26cm.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_26cm.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4306,7 +4306,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_21cm.dae" scale="5.000001 5.000003 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_21cm.dae" scale="5.000001 5.000003 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -4322,7 +4322,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_21cm.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_21cm.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4338,7 +4338,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_21cm.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_21cm.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4354,7 +4354,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_21cm.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_21cm.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4370,7 +4370,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_16cm.dae" scale="5.000001 5.000003 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_16cm.dae" scale="5.000001 5.000003 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -4386,7 +4386,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_16cm.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_16cm.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4402,7 +4402,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_16cm.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_16cm.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4418,7 +4418,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_Plate_Classic_16cm.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_Plate_Classic_16cm.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4434,7 +4434,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bowl.dae" scale="5.000001 5.000003 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bowl.dae" scale="5.000001 5.000003 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -4450,7 +4450,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bowl.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bowl.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4466,7 +4466,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bowl.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bowl.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4482,7 +4482,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bowl.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bowl.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4498,7 +4498,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bowl.dae" scale="5.000001 5.000003 5.000002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bowl.dae" scale="5.000001 5.000003 5.000002" />
          </geometry>
       </visual>
    </link>
@@ -4514,7 +4514,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bowl.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bowl.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4530,7 +4530,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bowl.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bowl.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4546,7 +4546,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bowl.dae" scale="5.000001 5.000006 5.000005" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bowl.dae" scale="5.000001 5.000006 5.000005" />
          </geometry>
       </visual>
    </link>
@@ -4562,7 +4562,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Boxshelf.dae" scale="150.0001 150 150.0001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Boxshelf.dae" scale="150.0001 150 150.0001" />
          </geometry>
       </visual>
    </link>
@@ -4578,7 +4578,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Boxshelf.dae" scale="150.0001 150.0001 150.0001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Boxshelf.dae" scale="150.0001 150.0001 150.0001" />
          </geometry>
       </visual>
    </link>
@@ -4594,7 +4594,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SM_TraySet_Mid.dae" scale="7.000002 7.000005 7.000003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SM_TraySet_Mid.dae" scale="7.000002 7.000005 7.000003" />
          </geometry>
       </visual>
    </link>
@@ -4610,7 +4610,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Trash.dae" scale="1.500001 1.500002 1.500001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Trash.dae" scale="1.500001 1.500002 1.500001" />
          </geometry>
       </visual>
    </link>
@@ -4626,7 +4626,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Trash.dae" scale="1.343966 1.343967 1.343966" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Trash.dae" scale="1.343966 1.343967 1.343966" />
          </geometry>
       </visual>
    </link>
@@ -4642,7 +4642,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Carpet_Tiles.dae" scale="0.5720068 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Carpet_Tiles.dae" scale="0.5720068 1 1" />
          </geometry>
       </visual>
    </link>
@@ -4658,7 +4658,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Carpet_Tiles.dae" scale="0.5720069 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Carpet_Tiles.dae" scale="0.5720069 1 1" />
          </geometry>
       </visual>
    </link>
@@ -4674,7 +4674,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Carpet_Tiles.dae" scale="0.5720069 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Carpet_Tiles.dae" scale="0.5720069 1 1" />
          </geometry>
       </visual>
    </link>
@@ -4690,7 +4690,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Carpet_Tiles.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Carpet_Tiles.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -4706,7 +4706,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Carpet_Tiles.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Carpet_Tiles.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -4722,7 +4722,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Carpet_Tiles.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Carpet_Tiles.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -4738,7 +4738,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Carpet_Tiles.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Carpet_Tiles.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -4754,7 +4754,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Carpet_Tiles.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Carpet_Tiles.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -4770,7 +4770,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Carpet_Tiles.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Carpet_Tiles.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -4786,7 +4786,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_shelf_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_shelf_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -4802,7 +4802,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Table.dae" scale="100.0002 100 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Table.dae" scale="100.0002 100 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -4818,7 +4818,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Chair.dae" scale="100.0002 100 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Chair.dae" scale="100.0002 100 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -4834,7 +4834,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Chair.dae" scale="100.0002 100 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Chair.dae" scale="100.0002 100 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -4850,7 +4850,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Chair.dae" scale="100.0002 100 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Chair.dae" scale="100.0002 100 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -4866,7 +4866,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Chair.dae" scale="100.0002 100 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Chair.dae" scale="100.0002 100 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -4882,7 +4882,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Sofa.dae" scale="100.0001 100 100.0001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Sofa.1.dae" scale="100.0001 100 100.0001" />
          </geometry>
       </visual>
    </link>
@@ -4898,7 +4898,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Curtains_Blue.dae" scale="3 3 3" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Curtains_Blue.dae" scale="3 3 3" />
          </geometry>
       </visual>
    </link>
@@ -4914,7 +4914,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Curtains_Blue.dae" scale="3 3 3" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Curtains_Blue.dae" scale="3 3 3" />
          </geometry>
       </visual>
    </link>
@@ -4930,7 +4930,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Cupboard_03.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Cupboard_03.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
@@ -4946,7 +4946,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Bonzai.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Bonzai.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
@@ -4962,7 +4962,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Big_Clock.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Big_Clock.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
@@ -4978,7 +4978,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Curtains_Blue.dae" scale="3.000001 3 3.000001" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Curtains_Blue.dae" scale="3.000001 3 3.000001" />
          </geometry>
       </visual>
    </link>
@@ -4994,7 +4994,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Curtains_Blue.dae" scale="3.000003 3 3.000003" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Curtains_Blue.dae" scale="3.000003 3 3.000003" />
          </geometry>
       </visual>
    </link>
@@ -5010,7 +5010,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Rug_03.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Rug_03.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
@@ -5026,7 +5026,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Fireplace_02.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Fireplace_02.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
@@ -5042,7 +5042,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//pea.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/pea.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
@@ -5058,7 +5058,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_WallArt_01.dae" scale="1.75 1.75 1.75" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_WallArt_01.dae" scale="1.75 1.75 1.75" />
          </geometry>
       </visual>
    </link>
@@ -5074,7 +5074,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//pea.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/pea.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
@@ -5090,7 +5090,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_WallArt_02.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_WallArt_02.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -5106,7 +5106,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_WallArt_03.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_WallArt_03.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -5122,7 +5122,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Bar_Bench.dae" scale="2 1.5 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Bar_Bench.dae" scale="2 1.5 1" />
          </geometry>
       </visual>
    </link>
@@ -5138,7 +5138,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Shelf_011.dae" scale="2 2 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Shelf_011.dae" scale="2 2 1" />
          </geometry>
       </visual>
    </link>
@@ -5154,7 +5154,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Carpet_Grey.dae" scale="4.43609 1 8.024519" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Carpet_Grey.dae" scale="4.43609 1 8.024519" />
          </geometry>
       </visual>
    </link>
@@ -5170,7 +5170,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Shelf_011.dae" scale="2 2 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Shelf_011.dae" scale="2 2 1" />
          </geometry>
       </visual>
    </link>
@@ -5186,7 +5186,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//scp_mw_knife_01.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/scp_mw_knife_01.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -5202,7 +5202,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Pinboard_01.dae" scale="0.7912513 0.5145863 0.7" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Pinboard_01.dae" scale="0.7912513 0.5145863 0.7" />
          </geometry>
       </visual>
    </link>
@@ -5218,7 +5218,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Papers_03.dae" scale="0.8 0.8 0.8" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Papers_03.dae" scale="0.8 0.8 0.8" />
          </geometry>
       </visual>
    </link>
@@ -5234,7 +5234,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Shelf_04.dae" scale="1 1 1" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Shelf_04.dae" scale="1 1 1" />
          </geometry>
       </visual>
    </link>
@@ -5250,7 +5250,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Floor_Vinyl.dae" scale="2.483194 2.5 3.104595" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Floor_Vinyl.dae" scale="2.483194 2.5 3.104595" />
          </geometry>
       </visual>
    </link>
@@ -5266,7 +5266,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//BathSink.dae" scale="100 100 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/BathSink.dae" scale="100 100 100" />
          </geometry>
       </visual>
    </link>
@@ -5282,7 +5282,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bathtub.dae" scale="100.0002 100 100.0002" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bathtub.dae" scale="100.0002 100 100.0002" />
          </geometry>
       </visual>
    </link>
@@ -5298,7 +5298,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Plunger.dae" scale="0.3 0.3 0.3" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Plunger.dae" scale="0.3 0.3 0.3" />
          </geometry>
       </visual>
    </link>
@@ -5314,7 +5314,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Mirror.dae" scale="0.5 0.5 0.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Mirror.dae" scale="0.5 0.5 0.5" />
          </geometry>
       </visual>
    </link>
@@ -5330,7 +5330,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Toilet.dae" scale="0.1559978 0.1559978 0.1559978" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Toilet.dae" scale="0.1559978 0.1559978 0.1559978" />
          </geometry>
       </visual>
    </link>
@@ -5346,7 +5346,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Towel_Rack.dae" scale="0.2089409 0.2089406 0.2089409" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Towel_Rack.dae" scale="0.2089409 0.2089406 0.2089409" />
          </geometry>
       </visual>
    </link>
@@ -5362,7 +5362,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//BroomBottom.dae" scale="5.5 5.499999 5.499999" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/BroomBottom.dae" scale="5.5 5.499999 5.499999" />
          </geometry>
       </visual>
    </link>
@@ -5378,7 +5378,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//BroomTop.dae" scale="5.5 5.499999 5.499999" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/BroomTop.dae" scale="5.5 5.499999 5.499999" />
          </geometry>
       </visual>
    </link>
@@ -5394,7 +5394,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.849067 0.003999999 1.813189" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.849067 0.003999999 1.813189" />
          </geometry>
       </visual>
    </link>
@@ -5410,7 +5410,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Cube.dae" scale="1.220886 0.007829666 0.7858832" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Cube.dae" scale="1.220886 0.007829666 0.7858832" />
          </geometry>
       </visual>
    </link>
@@ -5426,7 +5426,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_BathMat_Blue.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_BathMat_Blue.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
@@ -5442,7 +5442,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_Toilet_01.dae" scale="1.75 1.75 1.75" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_Toilet_01.dae" scale="1.75 1.75 1.75" />
          </geometry>
       </visual>
    </link>
@@ -5458,7 +5458,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Prop_ToiletSeat_01.dae" scale="1.75 1.75 1.75" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Prop_ToiletSeat_01.dae" scale="1.75 1.75 1.75" />
          </geometry>
       </visual>
    </link>
@@ -5474,7 +5474,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//TV.dae" scale="100 100 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/TV.dae" scale="100 100 100" />
          </geometry>
       </visual>
    </link>
@@ -5490,7 +5490,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//TVTable.dae" scale="100 100 100" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/TVTable.dae" scale="100 100 100" />
          </geometry>
       </visual>
    </link>
@@ -5506,7 +5506,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SO_Clipboard.dae" scale="7 7 7" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SO_Clipboard.dae" scale="7 7 7" />
          </geometry>
       </visual>
    </link>
@@ -5522,7 +5522,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Items_FryPan_01.dae" scale="1.25 1.25 1.25" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Items_FryPan_01.dae" scale="1.25 1.25 1.25" />
          </geometry>
       </visual>
    </link>
@@ -5538,7 +5538,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//SI_Food_Meat_Steak_Raw.dae" scale="1.5 1.5 1.5" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/SI_Food_Meat_Steak_Raw.dae" scale="1.5 1.5 1.5" />
          </geometry>
       </visual>
    </link>
@@ -5554,7 +5554,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/final_collada_meshes//Bottle4.dae" scale="2 2 2" />
+            <mesh filename="package://h_neem/meshes/final_collada_meshes/Bottle4.dae" scale="2 2 2" />
          </geometry>
       </visual>
    </link>
